@@ -4,6 +4,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "lint": "next lint",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
   },
@@ -25,13 +26,24 @@
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "eslint": "^8.16.0",
+    "eslint-config-next": "^12.1.6",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.30.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.0.0",
     "prettier": "^2.6.2",
     "typescript": "4.3.2"
   },
   "lint-staged": {
-    "*.{ts,tsx}": ["eslint", "prettier --write"]
+    "*.{ts,tsx}": [
+      "eslint",
+      "prettier --write"
+    ]
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all"
   }
 }
