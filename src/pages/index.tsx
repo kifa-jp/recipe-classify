@@ -1,49 +1,36 @@
-import { Link as ChakraLink, Text, Code, List, ListIcon, ListItem } from '@chakra-ui/react';
+import {
+  Button,
+  Flex,
+  Heading,
+  Input,
+  useColorMode,
+  useColorModeValue,
+  Box,
+} from '@chakra-ui/react';
 import { CheckCircleIcon, LinkIcon } from '@chakra-ui/icons';
 
-import Head from 'next/head';
-import { Hero } from '../components/Hero';
-import { Container } from '../components/Container';
-import { Main } from '../components/Main';
-import { DarkModeSwitch } from '../components/DarkModeSwitch';
-import { CTA } from '../components/CTA';
-import { Footer } from '../components/Footer';
-
-const Index = () => (
-  <Container height='100vh'>
-    <Head>
-      <title>Recipe Classify</title>
-      <meta charSet='utf-8' />
-      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-      <link
-        rel='icon'
-        href='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡️</text></svg>'
-      />
-    </Head>
-    <Hero />
-    <Main>
-      <List spacing={3} my={0} color='text'>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color='green.500' />
-          <ChakraLink isExternal href='https://chakra-ui.com' flexGrow={1} mr={2}>
-            Chakra UI <LinkIcon />
-          </ChakraLink>
-        </ListItem>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color='green.500' />
-          <ChakraLink isExternal href='https://nextjs.org' flexGrow={1} mr={2}>
-            Next.js <LinkIcon />
-          </ChakraLink>
-        </ListItem>
-      </List>
-    </Main>
-
-    <DarkModeSwitch />
-    <Footer>
-      <Text>Next ❤️ Chakra</Text>
-    </Footer>
-    <CTA />
-  </Container>
-);
+const Index = () => {
+  const { toggleColorMode } = useColorMode();
+  const formBackground = useColorModeValue('gray.100', 'gray.700');
+  return (
+    <Flex height="100vh" alignItems="center" justifyContent="center">
+      <Flex direction="column" background={formBackground} p={12} rounded={6}>
+        <Box bg={['red.200', 'yellow.200', 'green.200', 'blue.200']}>Hello</Box>
+        <Heading mb={6}>Log in</Heading>
+        <Input
+          placeholder="example@example.com"
+          variant="filled"
+          mb={3}
+          type="email"
+        />
+        <Input placeholder="********" variant="filled" mb={6} type="password" />
+        <Button mb={6} colorScheme="teal">
+          Log in
+        </Button>
+        <Button onClick={toggleColorMode}>Toggle Color Mode</Button>
+      </Flex>
+    </Flex>
+  );
+};
 
 export default Index;
