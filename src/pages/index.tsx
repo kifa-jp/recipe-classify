@@ -7,7 +7,6 @@ import {
   useColorModeValue,
   Box,
 } from '@chakra-ui/react';
-import { CheckCircleIcon, LinkIcon } from '@chakra-ui/icons';
 
 const Index = () => {
   const { toggleColorMode } = useColorMode();
@@ -15,7 +14,6 @@ const Index = () => {
   return (
     <Flex height="100vh" alignItems="center" justifyContent="center">
       <Flex direction="column" background={formBackground} p={12} rounded={6}>
-        <Box bg={['red.200', 'yellow.200', 'green.200', 'blue.200']}>Hello</Box>
         <Heading mb={6}>Log in</Heading>
         <Input
           placeholder="example@example.com"
