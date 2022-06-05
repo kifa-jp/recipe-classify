@@ -5,16 +5,18 @@ import {
   Input,
   useColorMode,
   useColorModeValue,
-  Box,
+  Center,
 } from '@chakra-ui/react';
 
 const Index = () => {
   const { toggleColorMode } = useColorMode();
   const formBackground = useColorModeValue('gray.100', 'gray.700');
   return (
-    <Flex height="100vh" alignItems="center" justifyContent="center">
+    <Center minH="100vh">
       <Flex direction="column" background={formBackground} p={12} rounded={6}>
-        <Heading mb={6}>Log in</Heading>
+        <Heading mb={6} as="h3">
+          Log in
+        </Heading>
         <Input
           placeholder="example@example.com"
           variant="filled"
@@ -27,7 +29,7 @@ const Index = () => {
         </Button>
         <Button onClick={toggleColorMode}>Toggle Color Mode</Button>
       </Flex>
-    </Flex>
+    </Center>
   );
 };
 

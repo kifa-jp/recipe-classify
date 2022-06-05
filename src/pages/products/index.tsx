@@ -1,7 +1,5 @@
 import {
-  Box,
   Center,
-  Container,
   Flex,
   Heading,
   ListItem,
@@ -12,13 +10,29 @@ import NextLink from 'next/link';
 
 const ProductsList = () => {
   return (
-    <Flex px={2} minH="100vh" alignItems="center" justifyContent="center">
-      <Flex p={4} flexDir="column" align="center">
-        <Heading m={0} as="h2">
+    <Center px={2} minH="100vh" bg={'gray.100'}>
+      <Flex
+        pb={4}
+        flexDir="column"
+        align="center"
+        bg={'white'}
+        rounded="6"
+        w={['sm', 'md', 'lg', 'xl']}
+        boxShadow="lg"
+      >
+        <Heading
+          w={'100%'}
+          px={4}
+          py={2}
+          mb={4}
+          as="h2"
+          bg={'green.300'}
+          roundedTop="6"
+        >
           商品一覧
         </Heading>
 
-        <UnorderedList>
+        <UnorderedList w={'100%'} px={4}>
           <ListItem>
             <NextLink href="/products/smartphone">
               <Link>スマートフォン</Link>
@@ -36,7 +50,7 @@ const ProductsList = () => {
           </ListItem>
         </UnorderedList>
       </Flex>
-    </Flex>
+    </Center>
   );
 };
 
