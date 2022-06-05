@@ -1,0 +1,3485 @@
+{
+  "large": [
+    {
+      "categoryId": "30",
+      "categoryName": "人気メニュー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30/"
+    },
+    {
+      "categoryId": "31",
+      "categoryName": "定番の肉料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31/"
+    },
+    {
+      "categoryId": "32",
+      "categoryName": "定番の魚料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32/"
+    },
+    {
+      "categoryId": "33",
+      "categoryName": "卵料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33/"
+    },
+    {
+      "categoryId": "14",
+      "categoryName": "ご飯もの",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14/"
+    },
+    {
+      "categoryId": "15",
+      "categoryName": "パスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15/"
+    },
+    {
+      "categoryId": "16",
+      "categoryName": "麺・粉物料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/16/"
+    },
+    {
+      "categoryId": "17",
+      "categoryName": "汁物・スープ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17/"
+    },
+    {
+      "categoryId": "23",
+      "categoryName": "鍋料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23/"
+    },
+    {
+      "categoryId": "18",
+      "categoryName": "サラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18/"
+    },
+    {
+      "categoryId": "22",
+      "categoryName": "パン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22/"
+    },
+    {
+      "categoryId": "21",
+      "categoryName": "お菓子",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21/"
+    },
+    {
+      "categoryId": "10",
+      "categoryName": "肉",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/10/"
+    },
+    {
+      "categoryId": "11",
+      "categoryName": "魚",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11/"
+    },
+    {
+      "categoryId": "12",
+      "categoryName": "野菜",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12/"
+    },
+    {
+      "categoryId": "34",
+      "categoryName": "果物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34/"
+    },
+    {
+      "categoryId": "19",
+      "categoryName": "ソース・調味料・ドレッシング",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19/"
+    },
+    {
+      "categoryId": "27",
+      "categoryName": "飲みもの",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/27/"
+    },
+    {
+      "categoryId": "35",
+      "categoryName": "大豆・豆腐",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/35/"
+    },
+    {
+      "categoryId": "13",
+      "categoryName": "その他の食材",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13/"
+    },
+    {
+      "categoryId": "20",
+      "categoryName": "お弁当",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/20/"
+    },
+    {
+      "categoryId": "36",
+      "categoryName": "簡単料理・時短",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/36/"
+    },
+    {
+      "categoryId": "37",
+      "categoryName": "節約料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/37/"
+    },
+    {
+      "categoryId": "38",
+      "categoryName": "今日の献立",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/38/"
+    },
+    {
+      "categoryId": "39",
+      "categoryName": "健康料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/39/"
+    },
+    {
+      "categoryId": "40",
+      "categoryName": "調理器具",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40/"
+    },
+    {
+      "categoryId": "26",
+      "categoryName": "その他の目的・シーン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/26/"
+    },
+    {
+      "categoryId": "41",
+      "categoryName": "中華料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41/"
+    },
+    {
+      "categoryId": "42",
+      "categoryName": "韓国料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42/"
+    },
+    {
+      "categoryId": "43",
+      "categoryName": "イタリア料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43/"
+    },
+    {
+      "categoryId": "44",
+      "categoryName": "フランス料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/44/"
+    },
+    {
+      "categoryId": "25",
+      "categoryName": "西洋料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/25/"
+    },
+    {
+      "categoryId": "46",
+      "categoryName": "エスニック料理・中南米",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/46/"
+    },
+    {
+      "categoryId": "47",
+      "categoryName": "沖縄料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/47/"
+    },
+    {
+      "categoryId": "48",
+      "categoryName": "日本各地の郷土料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48/"
+    },
+    {
+      "categoryId": "24",
+      "categoryName": "行事・イベント",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/24/"
+    },
+    {
+      "categoryId": "49",
+      "categoryName": "おせち料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49/"
+    },
+    {
+      "categoryId": "50",
+      "categoryName": "クリスマス",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/50/"
+    },
+    {
+      "categoryId": "51",
+      "categoryName": "ひな祭り",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/51/"
+    },
+    {
+      "categoryId": "52",
+      "categoryName": "春（3月～5月）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/52/"
+    },
+    {
+      "categoryId": "53",
+      "categoryName": "夏（6月～8月）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/53/"
+    },
+    {
+      "categoryId": "54",
+      "categoryName": "秋（9月～11月）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/54/"
+    },
+    {
+      "categoryId": "55",
+      "categoryName": "冬（12月～2月）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/55/"
+    }
+  ],
+  "medium": [
+    {
+      "categoryId": 275,
+      "categoryName": "牛肉",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/10-275/",
+      "parentCategoryId": "10"
+    },
+    {
+      "categoryId": 276,
+      "categoryName": "豚肉",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/10-276/",
+      "parentCategoryId": "10"
+    },
+    {
+      "categoryId": 277,
+      "categoryName": "鶏肉",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/10-277/",
+      "parentCategoryId": "10"
+    },
+    {
+      "categoryId": 278,
+      "categoryName": "ひき肉",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/10-278/",
+      "parentCategoryId": "10"
+    },
+    {
+      "categoryId": 68,
+      "categoryName": "ベーコン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/10-68/",
+      "parentCategoryId": "10"
+    },
+    {
+      "categoryId": 66,
+      "categoryName": "ソーセージ・ウインナー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/10-66/",
+      "parentCategoryId": "10"
+    },
+    {
+      "categoryId": 67,
+      "categoryName": "ハム",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/10-67/",
+      "parentCategoryId": "10"
+    },
+    {
+      "categoryId": 69,
+      "categoryName": "その他のお肉",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/10-69/",
+      "parentCategoryId": "10"
+    },
+    {
+      "categoryId": 70,
+      "categoryName": "サーモン・鮭",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-70/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 71,
+      "categoryName": "いわし",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-71/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 72,
+      "categoryName": "さば",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-72/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 73,
+      "categoryName": "あじ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-73/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 74,
+      "categoryName": "ぶり",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-74/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 75,
+      "categoryName": "さんま",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-75/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 76,
+      "categoryName": "鯛",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-76/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 77,
+      "categoryName": "マグロ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-77/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 443,
+      "categoryName": "たら",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-443/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 78,
+      "categoryName": "その他のさかな",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-78/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 80,
+      "categoryName": "いか",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-80/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 81,
+      "categoryName": "たこ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-81/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 79,
+      "categoryName": "エビ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-79/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 83,
+      "categoryName": "かに",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-83/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 444,
+      "categoryName": "牡蠣",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-444/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 82,
+      "categoryName": "貝類",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-82/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 445,
+      "categoryName": "明太子・魚卵",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-445/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 446,
+      "categoryName": "その他の魚介",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/11-446/",
+      "parentCategoryId": "11"
+    },
+    {
+      "categoryId": 447,
+      "categoryName": "なす",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-447/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 448,
+      "categoryName": "かぼちゃ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-448/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 449,
+      "categoryName": "大根",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-449/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 450,
+      "categoryName": "きゅうり",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-450/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 97,
+      "categoryName": "じゃがいも",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-97/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 452,
+      "categoryName": "さつまいも",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-452/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 98,
+      "categoryName": "キャベツ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-98/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 453,
+      "categoryName": "白菜",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-453/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 454,
+      "categoryName": "トマト",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-454/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 99,
+      "categoryName": "もやし",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-99/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 456,
+      "categoryName": "小松菜",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-456/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 457,
+      "categoryName": "ほうれん草",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-457/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 455,
+      "categoryName": "ごぼう",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-455/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 451,
+      "categoryName": "アボカド",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-451/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 96,
+      "categoryName": "玉ねぎ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-96/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 458,
+      "categoryName": "ブロッコリー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-458/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 95,
+      "categoryName": "にんじん",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-95/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 100,
+      "categoryName": "春野菜",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-100/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 101,
+      "categoryName": "夏野菜",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-101/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 102,
+      "categoryName": "秋野菜",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-102/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 103,
+      "categoryName": "冬野菜",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-103/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 105,
+      "categoryName": "きのこ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-105/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 107,
+      "categoryName": "香味野菜・ハーブ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-107/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 104,
+      "categoryName": "その他の野菜",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/12-104/",
+      "parentCategoryId": "12"
+    },
+    {
+      "categoryId": 478,
+      "categoryName": "もち米",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-478/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 706,
+      "categoryName": "もち麦",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-706/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 479,
+      "categoryName": "マカロニ・ペンネ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-479/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 480,
+      "categoryName": "ホットケーキミックス",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-480/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 481,
+      "categoryName": "粉類",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-481/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 108,
+      "categoryName": "練物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-108/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 109,
+      "categoryName": "加工食品",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-109/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 482,
+      "categoryName": "チーズ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-482/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 483,
+      "categoryName": "ヨーグルト",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-483/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 111,
+      "categoryName": "こんにゃく",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-111/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 112,
+      "categoryName": "しらたき",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-112/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 113,
+      "categoryName": "海藻",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-113/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 114,
+      "categoryName": "乾物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-114/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 484,
+      "categoryName": "漬物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-484/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 115,
+      "categoryName": "その他の食材",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/13-115/",
+      "parentCategoryId": "13"
+    },
+    {
+      "categoryId": 121,
+      "categoryName": "オムライス",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-121/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 131,
+      "categoryName": "チャーハン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-131/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 126,
+      "categoryName": "パエリア",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-126/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 124,
+      "categoryName": "タコライス",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-124/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 122,
+      "categoryName": "チキンライス",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-122/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 123,
+      "categoryName": "ハヤシライス",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-123/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 125,
+      "categoryName": "ロコモコ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-125/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 127,
+      "categoryName": "ピラフ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-127/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 368,
+      "categoryName": "ハッシュドビーフ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-368/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 128,
+      "categoryName": "その他○○ライス",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-128/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 129,
+      "categoryName": "寿司",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-129/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 130,
+      "categoryName": "丼物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-130/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 132,
+      "categoryName": "炊き込みご飯",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-132/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 133,
+      "categoryName": "おかゆ・雑炊類",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-133/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 134,
+      "categoryName": "おにぎり",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-134/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 135,
+      "categoryName": "アレンジごはん",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-135/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 271,
+      "categoryName": "その他のごはん料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/14-271/",
+      "parentCategoryId": "14"
+    },
+    {
+      "categoryId": 687,
+      "categoryName": "カルボナーラ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-687/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 137,
+      "categoryName": "ミートソース",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-137/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 676,
+      "categoryName": "ナポリタン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-676/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 681,
+      "categoryName": "ペペロンチーノ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-681/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 369,
+      "categoryName": "ジェノベーゼ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-369/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 677,
+      "categoryName": "ペスカトーレ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-677/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 683,
+      "categoryName": "たらこパスタ・明太子パスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-683/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 682,
+      "categoryName": "ボンゴレ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-682/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 678,
+      "categoryName": "アラビアータ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-678/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 679,
+      "categoryName": "トマトクリームパスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-679/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 684,
+      "categoryName": "納豆パスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-684/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 680,
+      "categoryName": "トマト系パスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-680/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 138,
+      "categoryName": "クリーム系パスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-138/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 139,
+      "categoryName": "オイル・塩系パスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-139/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 140,
+      "categoryName": "チーズ系パスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-140/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 141,
+      "categoryName": "バジルソース系パスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-141/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 142,
+      "categoryName": "和風パスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-142/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 685,
+      "categoryName": "きのこパスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-685/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 686,
+      "categoryName": "ツナパスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-686/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 143,
+      "categoryName": "冷製パスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-143/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 145,
+      "categoryName": "スープスパ・スープパスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-145/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 146,
+      "categoryName": "その他のパスタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-146/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 144,
+      "categoryName": "パスタソース",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-144/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 147,
+      "categoryName": "ニョッキ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-147/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 151,
+      "categoryName": "ラザニア",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-151/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 382,
+      "categoryName": "ラビオリ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/15-382/",
+      "parentCategoryId": "15"
+    },
+    {
+      "categoryId": 152,
+      "categoryName": "うどん",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/16-152/",
+      "parentCategoryId": "16"
+    },
+    {
+      "categoryId": 153,
+      "categoryName": "蕎麦",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/16-153/",
+      "parentCategoryId": "16"
+    },
+    {
+      "categoryId": 154,
+      "categoryName": "そうめん",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/16-154/",
+      "parentCategoryId": "16"
+    },
+    {
+      "categoryId": 155,
+      "categoryName": "焼きそば",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/16-155/",
+      "parentCategoryId": "16"
+    },
+    {
+      "categoryId": 156,
+      "categoryName": "ラーメン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/16-156/",
+      "parentCategoryId": "16"
+    },
+    {
+      "categoryId": 383,
+      "categoryName": "冷やし中華",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/16-383/",
+      "parentCategoryId": "16"
+    },
+    {
+      "categoryId": 384,
+      "categoryName": "つけ麺",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/16-384/",
+      "parentCategoryId": "16"
+    },
+    {
+      "categoryId": 272,
+      "categoryName": "その他の麺",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/16-272/",
+      "parentCategoryId": "16"
+    },
+    {
+      "categoryId": 385,
+      "categoryName": "お好み焼き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/16-385/",
+      "parentCategoryId": "16"
+    },
+    {
+      "categoryId": 386,
+      "categoryName": "たこ焼き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/16-386/",
+      "parentCategoryId": "16"
+    },
+    {
+      "categoryId": 158,
+      "categoryName": "粉物料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/16-158/",
+      "parentCategoryId": "16"
+    },
+    {
+      "categoryId": 159,
+      "categoryName": "味噌汁",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-159/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 161,
+      "categoryName": "豚汁",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-161/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 387,
+      "categoryName": "けんちん汁",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-387/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 160,
+      "categoryName": "お吸い物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-160/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 388,
+      "categoryName": "かぼちゃスープ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-388/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 169,
+      "categoryName": "野菜スープ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-169/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 389,
+      "categoryName": "チャウダー・クラムチャウダー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-389/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 171,
+      "categoryName": "コーンスープ・ポタージュ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-171/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 168,
+      "categoryName": "トマトスープ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-168/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 167,
+      "categoryName": "コンソメスープ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-167/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 170,
+      "categoryName": "クリームスープ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-170/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 164,
+      "categoryName": "中華スープ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-164/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 165,
+      "categoryName": "和風スープ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-165/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 166,
+      "categoryName": "韓国風スープ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-166/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 173,
+      "categoryName": "その他のスープ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-173/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 390,
+      "categoryName": "ポトフ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-390/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 162,
+      "categoryName": "その他の汁物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/17-162/",
+      "parentCategoryId": "17"
+    },
+    {
+      "categoryId": 415,
+      "categoryName": "ポテトサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-415/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 424,
+      "categoryName": "タラモサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-424/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 421,
+      "categoryName": "マカロニサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-421/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 189,
+      "categoryName": "スパゲティサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-189/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 187,
+      "categoryName": "シーザーサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-187/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 417,
+      "categoryName": "大根サラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-417/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 416,
+      "categoryName": "春雨サラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-416/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 418,
+      "categoryName": "コールスロー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-418/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 722,
+      "categoryName": "キャロットラペ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-722/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 419,
+      "categoryName": "かぼちゃサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-419/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 420,
+      "categoryName": "ごぼうサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-420/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 423,
+      "categoryName": "コブサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-423/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 190,
+      "categoryName": "ホットサラダ・温野菜",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-190/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 703,
+      "categoryName": "ジャーサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-703/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 184,
+      "categoryName": "素材で選ぶサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-184/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 188,
+      "categoryName": "味付けで選ぶサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-188/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 185,
+      "categoryName": "マヨネーズを使ったサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-185/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 186,
+      "categoryName": "ナンプラーを使ったサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-186/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 191,
+      "categoryName": "その他のサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/18-191/",
+      "parentCategoryId": "18"
+    },
+    {
+      "categoryId": 192,
+      "categoryName": "ソース",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19-192/",
+      "parentCategoryId": "19"
+    },
+    {
+      "categoryId": 193,
+      "categoryName": "タレ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19-193/",
+      "parentCategoryId": "19"
+    },
+    {
+      "categoryId": 194,
+      "categoryName": "つゆ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19-194/",
+      "parentCategoryId": "19"
+    },
+    {
+      "categoryId": 195,
+      "categoryName": "だし",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19-195/",
+      "parentCategoryId": "19"
+    },
+    {
+      "categoryId": 196,
+      "categoryName": "ドレッシング",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19-196/",
+      "parentCategoryId": "19"
+    },
+    {
+      "categoryId": 675,
+      "categoryName": "発酵食品・発酵調味料",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19-675/",
+      "parentCategoryId": "19"
+    },
+    {
+      "categoryId": 274,
+      "categoryName": "スパイス＆ハーブ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19-274/",
+      "parentCategoryId": "19"
+    },
+    {
+      "categoryId": 463,
+      "categoryName": "柚子胡椒",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19-463/",
+      "parentCategoryId": "19"
+    },
+    {
+      "categoryId": 464,
+      "categoryName": "オリーブオイル",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19-464/",
+      "parentCategoryId": "19"
+    },
+    {
+      "categoryId": 700,
+      "categoryName": "ココナッツオイル",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19-700/",
+      "parentCategoryId": "19"
+    },
+    {
+      "categoryId": 710,
+      "categoryName": "ごま油",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19-710/",
+      "parentCategoryId": "19"
+    },
+    {
+      "categoryId": 711,
+      "categoryName": "エスニック・中華調味料",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19-711/",
+      "parentCategoryId": "19"
+    },
+    {
+      "categoryId": 273,
+      "categoryName": "その他調味料",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/19-273/",
+      "parentCategoryId": "19"
+    },
+    {
+      "categoryId": 485,
+      "categoryName": "キャラ弁",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/20-485/",
+      "parentCategoryId": "20"
+    },
+    {
+      "categoryId": 197,
+      "categoryName": "お弁当のおかず",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/20-197/",
+      "parentCategoryId": "20"
+    },
+    {
+      "categoryId": 486,
+      "categoryName": "運動会のお弁当",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/20-486/",
+      "parentCategoryId": "20"
+    },
+    {
+      "categoryId": 487,
+      "categoryName": "お花見のお弁当",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/20-487/",
+      "parentCategoryId": "20"
+    },
+    {
+      "categoryId": 488,
+      "categoryName": "遠足・ピクニックのお弁当",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/20-488/",
+      "parentCategoryId": "20"
+    },
+    {
+      "categoryId": 198,
+      "categoryName": "色別おかず",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/20-198/",
+      "parentCategoryId": "20"
+    },
+    {
+      "categoryId": 199,
+      "categoryName": "作り置き・冷凍できるおかず",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/20-199/",
+      "parentCategoryId": "20"
+    },
+    {
+      "categoryId": 200,
+      "categoryName": "すきまおかず",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/20-200/",
+      "parentCategoryId": "20"
+    },
+    {
+      "categoryId": 201,
+      "categoryName": "使い回しおかず",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/20-201/",
+      "parentCategoryId": "20"
+    },
+    {
+      "categoryId": 202,
+      "categoryName": "子供のお弁当",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/20-202/",
+      "parentCategoryId": "20"
+    },
+    {
+      "categoryId": 203,
+      "categoryName": "大人のお弁当",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/20-203/",
+      "parentCategoryId": "20"
+    },
+    {
+      "categoryId": 258,
+      "categoryName": "部活のお弁当",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/20-258/",
+      "parentCategoryId": "20"
+    },
+    {
+      "categoryId": 204,
+      "categoryName": "クッキー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-204/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 440,
+      "categoryName": "スイートポテト",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-440/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 205,
+      "categoryName": "チーズケーキ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-205/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 438,
+      "categoryName": "シフォンケーキ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-438/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 439,
+      "categoryName": "パウンドケーキ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-439/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 206,
+      "categoryName": "ケーキ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-206/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 215,
+      "categoryName": "ホットケーキ・パンケーキ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-215/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 207,
+      "categoryName": "タルト・パイ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-207/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 208,
+      "categoryName": "チョコレート",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-208/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 209,
+      "categoryName": "スコーン・マフィン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-209/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 210,
+      "categoryName": "焼き菓子",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-210/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 211,
+      "categoryName": "プリン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-211/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 216,
+      "categoryName": "ドーナツ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-216/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 212,
+      "categoryName": "シュークリーム・エクレア",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-212/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 441,
+      "categoryName": "ゼリー・寒天・ムース",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-441/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 442,
+      "categoryName": "アイス・シャーベット",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-442/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 214,
+      "categoryName": "和菓子",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-214/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 217,
+      "categoryName": "その他のお菓子",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-217/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 218,
+      "categoryName": "クリーム・ジャム",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/21-218/",
+      "parentCategoryId": "21"
+    },
+    {
+      "categoryId": 432,
+      "categoryName": "サンドイッチ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-432/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 433,
+      "categoryName": "フレンチトースト",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-433/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 434,
+      "categoryName": "食パン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-434/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 435,
+      "categoryName": "蒸しパン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-435/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 436,
+      "categoryName": "ホットサンド",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-436/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 229,
+      "categoryName": "惣菜パン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-229/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 221,
+      "categoryName": "菓子パン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-221/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 220,
+      "categoryName": "プレーンなパン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-220/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 222,
+      "categoryName": "クロワッサン・デニッシュ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-222/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 219,
+      "categoryName": "ハードブレッド",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-219/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 223,
+      "categoryName": "天然酵母パン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-223/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 227,
+      "categoryName": "世界各国のパン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-227/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 231,
+      "categoryName": "ヘルシーなパン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-231/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 437,
+      "categoryName": "キャラパン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-437/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 230,
+      "categoryName": "その他のパン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/22-230/",
+      "parentCategoryId": "22"
+    },
+    {
+      "categoryId": 392,
+      "categoryName": "すき焼き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-392/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 394,
+      "categoryName": "しゃぶしゃぶ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-394/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 391,
+      "categoryName": "おでん",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-391/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 399,
+      "categoryName": "寄せ鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-399/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 395,
+      "categoryName": "キムチ鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-395/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 401,
+      "categoryName": "トマト鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-401/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 404,
+      "categoryName": "カレー鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-404/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 397,
+      "categoryName": "豆乳鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-397/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 393,
+      "categoryName": "もつ鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-393/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 403,
+      "categoryName": "石狩鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-403/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 400,
+      "categoryName": "水炊き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-400/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 396,
+      "categoryName": "湯豆腐",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-396/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 405,
+      "categoryName": "きりたんぽ鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-405/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 407,
+      "categoryName": "雪見鍋（みぞれ鍋）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-407/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 412,
+      "categoryName": "火鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-412/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 406,
+      "categoryName": "韓国鍋・キムチチゲ鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-406/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 398,
+      "categoryName": "ちゃんこ鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-398/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 413,
+      "categoryName": "牡蠣鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-413/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 411,
+      "categoryName": "カニ鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-411/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 409,
+      "categoryName": "ねぎま鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-409/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 410,
+      "categoryName": "鴨鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-410/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 402,
+      "categoryName": "あんこう鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-402/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 698,
+      "categoryName": "白味噌鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-698/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 723,
+      "categoryName": "ミルフィーユ鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-723/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 408,
+      "categoryName": "蒸し鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-408/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 234,
+      "categoryName": "その他の鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/23-234/",
+      "parentCategoryId": "23"
+    },
+    {
+      "categoryId": 631,
+      "categoryName": "お食い初め料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/24-631/",
+      "parentCategoryId": "24"
+    },
+    {
+      "categoryId": 632,
+      "categoryName": "誕生日の料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/24-632/",
+      "parentCategoryId": "24"
+    },
+    {
+      "categoryId": 633,
+      "categoryName": "結婚記念日",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/24-633/",
+      "parentCategoryId": "24"
+    },
+    {
+      "categoryId": 634,
+      "categoryName": "パーティー料理・ホームパーティ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/24-634/",
+      "parentCategoryId": "24"
+    },
+    {
+      "categoryId": 635,
+      "categoryName": "子どものパーティ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/24-635/",
+      "parentCategoryId": "24"
+    },
+    {
+      "categoryId": 238,
+      "categoryName": "バーベキュー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/24-238/",
+      "parentCategoryId": "24"
+    },
+    {
+      "categoryId": 244,
+      "categoryName": "その他イベント",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/24-244/",
+      "parentCategoryId": "24"
+    },
+    {
+      "categoryId": 256,
+      "categoryName": "スペイン料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/25-256/",
+      "parentCategoryId": "25"
+    },
+    {
+      "categoryId": 701,
+      "categoryName": "イギリス料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/25-701/",
+      "parentCategoryId": "25"
+    },
+    {
+      "categoryId": 248,
+      "categoryName": "ロシア料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/25-248/",
+      "parentCategoryId": "25"
+    },
+    {
+      "categoryId": 255,
+      "categoryName": "ドイツ料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/25-255/",
+      "parentCategoryId": "25"
+    },
+    {
+      "categoryId": 257,
+      "categoryName": "トルコ料理・中東料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/25-257/",
+      "parentCategoryId": "25"
+    },
+    {
+      "categoryId": 262,
+      "categoryName": "おもてなし料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/26-262/",
+      "parentCategoryId": "26"
+    },
+    {
+      "categoryId": 260,
+      "categoryName": "おつまみ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/26-260/",
+      "parentCategoryId": "26"
+    },
+    {
+      "categoryId": 261,
+      "categoryName": "限られた食材・調理器具で工夫",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/26-261/",
+      "parentCategoryId": "26"
+    },
+    {
+      "categoryId": 265,
+      "categoryName": "料理のちょいテク・裏技",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/26-265/",
+      "parentCategoryId": "26"
+    },
+    {
+      "categoryId": 266,
+      "categoryName": "コーヒー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/27-266/",
+      "parentCategoryId": "27"
+    },
+    {
+      "categoryId": 267,
+      "categoryName": "お茶",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/27-267/",
+      "parentCategoryId": "27"
+    },
+    {
+      "categoryId": 268,
+      "categoryName": "ソフトドリンク",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/27-268/",
+      "parentCategoryId": "27"
+    },
+    {
+      "categoryId": 465,
+      "categoryName": "ジュース・スムージー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/27-465/",
+      "parentCategoryId": "27"
+    },
+    {
+      "categoryId": 269,
+      "categoryName": "お酒",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/27-269/",
+      "parentCategoryId": "27"
+    },
+    {
+      "categoryId": 300,
+      "categoryName": "ハンバーグ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-300/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 301,
+      "categoryName": "餃子",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-301/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 302,
+      "categoryName": "肉じゃが",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-302/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 307,
+      "categoryName": "カレー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-307/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 303,
+      "categoryName": "牛丼",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-303/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 304,
+      "categoryName": "親子丼",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-304/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 305,
+      "categoryName": "豚の生姜焼き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-305/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 306,
+      "categoryName": "グラタン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-306/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 309,
+      "categoryName": "唐揚げ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-309/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 310,
+      "categoryName": "コロッケ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-310/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 308,
+      "categoryName": "シチュー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-308/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 311,
+      "categoryName": "煮物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-311/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 312,
+      "categoryName": "炒め物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-312/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 313,
+      "categoryName": "天ぷら",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-313/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 314,
+      "categoryName": "揚げ物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-314/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 315,
+      "categoryName": "豆腐料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-315/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 316,
+      "categoryName": "和え物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-316/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 317,
+      "categoryName": "酢の物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-317/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 717,
+      "categoryName": "じゃがいも料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/30-717/",
+      "parentCategoryId": "30"
+    },
+    {
+      "categoryId": 318,
+      "categoryName": "ローストビーフ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-318/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 319,
+      "categoryName": "豚の角煮",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-319/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 320,
+      "categoryName": "チキン南蛮",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-320/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 321,
+      "categoryName": "ピーマンの肉詰め",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-321/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 323,
+      "categoryName": "ロールキャベツ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-323/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 324,
+      "categoryName": "スペアリブ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-324/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 325,
+      "categoryName": "ローストチキン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-325/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 326,
+      "categoryName": "もつ煮込み",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-326/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 327,
+      "categoryName": "ミートボール・肉団子",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-327/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 328,
+      "categoryName": "ミートローフ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-328/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 329,
+      "categoryName": "牛すじ煮込み",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-329/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 330,
+      "categoryName": "とんかつ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-330/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 331,
+      "categoryName": "ポークソテー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-331/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 332,
+      "categoryName": "つくね",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-332/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 333,
+      "categoryName": "チャーシュー（焼き豚）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-333/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 334,
+      "categoryName": "煮豚",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-334/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 322,
+      "categoryName": "ステーキ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-322/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 335,
+      "categoryName": "鶏肉料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-335/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 718,
+      "categoryName": "トンテキ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-718/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 719,
+      "categoryName": "肉巻き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-719/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 720,
+      "categoryName": "ローストポーク",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/31-720/",
+      "parentCategoryId": "31"
+    },
+    {
+      "categoryId": 336,
+      "categoryName": "ぶり大根",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-336/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 337,
+      "categoryName": "ぶりの照り焼き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-337/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 338,
+      "categoryName": "さばの味噌煮",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-338/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 339,
+      "categoryName": "煮魚",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-339/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 340,
+      "categoryName": "あさりの酒蒸し",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-340/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 341,
+      "categoryName": "鮭のムニエル",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-341/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 342,
+      "categoryName": "南蛮漬け",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-342/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 343,
+      "categoryName": "焼き魚",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-343/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 344,
+      "categoryName": "鮭のホイル焼き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-344/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 345,
+      "categoryName": "いわしのつみれ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-345/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 346,
+      "categoryName": "かつおのたたき",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-346/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 347,
+      "categoryName": "いわしの梅煮",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-347/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 348,
+      "categoryName": "かぶら蒸し",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-348/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 349,
+      "categoryName": "その他の魚料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/32-349/",
+      "parentCategoryId": "32"
+    },
+    {
+      "categoryId": 350,
+      "categoryName": "ゆで卵",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-350/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 351,
+      "categoryName": "温泉卵",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-351/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 352,
+      "categoryName": "半熟卵",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-352/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 353,
+      "categoryName": "だし巻き卵・卵焼き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-353/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 354,
+      "categoryName": "茶碗蒸し",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-354/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 355,
+      "categoryName": "キッシュ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-355/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 356,
+      "categoryName": "オムレツ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-356/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 357,
+      "categoryName": "かに玉",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-357/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 358,
+      "categoryName": "スクランブルエッグ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-358/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 359,
+      "categoryName": "煮卵",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-359/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 360,
+      "categoryName": "目玉焼き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-360/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 361,
+      "categoryName": "ニラ玉",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-361/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 362,
+      "categoryName": "ポーチドエッグ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-362/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 363,
+      "categoryName": "スコッチエッグ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-363/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 364,
+      "categoryName": "卵とじ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-364/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 365,
+      "categoryName": "薄焼き卵",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-365/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 366,
+      "categoryName": "炒り卵",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-366/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 367,
+      "categoryName": "その他の卵料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-367/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 721,
+      "categoryName": "味付け卵",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/33-721/",
+      "parentCategoryId": "33"
+    },
+    {
+      "categoryId": 688,
+      "categoryName": "りんご",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-688/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 459,
+      "categoryName": "ゆず",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-459/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 460,
+      "categoryName": "柿",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-460/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 461,
+      "categoryName": "レモン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-461/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 697,
+      "categoryName": "バナナ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-697/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 462,
+      "categoryName": "ブルーベリー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-462/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 690,
+      "categoryName": "グレープフルーツ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-690/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 691,
+      "categoryName": "キウイ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-691/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 702,
+      "categoryName": "オレンジ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-702/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 692,
+      "categoryName": "春の果物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-692/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 693,
+      "categoryName": "夏の果物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-693/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 689,
+      "categoryName": "秋の果物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-689/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 695,
+      "categoryName": "冬の果物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-695/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 696,
+      "categoryName": "その他の果物",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/34-696/",
+      "parentCategoryId": "34"
+    },
+    {
+      "categoryId": 466,
+      "categoryName": "おから",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/35-466/",
+      "parentCategoryId": "35"
+    },
+    {
+      "categoryId": 467,
+      "categoryName": "厚揚げ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/35-467/",
+      "parentCategoryId": "35"
+    },
+    {
+      "categoryId": 468,
+      "categoryName": "納豆",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/35-468/",
+      "parentCategoryId": "35"
+    },
+    {
+      "categoryId": 469,
+      "categoryName": "高野豆腐",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/35-469/",
+      "parentCategoryId": "35"
+    },
+    {
+      "categoryId": 470,
+      "categoryName": "豆乳",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/35-470/",
+      "parentCategoryId": "35"
+    },
+    {
+      "categoryId": 471,
+      "categoryName": "木綿豆腐",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/35-471/",
+      "parentCategoryId": "35"
+    },
+    {
+      "categoryId": 472,
+      "categoryName": "絹ごし豆腐",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/35-472/",
+      "parentCategoryId": "35"
+    },
+    {
+      "categoryId": 473,
+      "categoryName": "油揚げ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/35-473/",
+      "parentCategoryId": "35"
+    },
+    {
+      "categoryId": 474,
+      "categoryName": "大豆ミート",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/35-474/",
+      "parentCategoryId": "35"
+    },
+    {
+      "categoryId": 475,
+      "categoryName": "塩豆腐",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/35-475/",
+      "parentCategoryId": "35"
+    },
+    {
+      "categoryId": 476,
+      "categoryName": "その他の大豆・豆腐",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/35-476/",
+      "parentCategoryId": "35"
+    },
+    {
+      "categoryId": 477,
+      "categoryName": "豆類",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/35-477/",
+      "parentCategoryId": "35"
+    },
+    {
+      "categoryId": 489,
+      "categoryName": "簡単お菓子",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/36-489/",
+      "parentCategoryId": "36"
+    },
+    {
+      "categoryId": 490,
+      "categoryName": "簡単夕食",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/36-490/",
+      "parentCategoryId": "36"
+    },
+    {
+      "categoryId": 491,
+      "categoryName": "簡単おつまみ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/36-491/",
+      "parentCategoryId": "36"
+    },
+    {
+      "categoryId": 492,
+      "categoryName": "簡単おもてなし料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/36-492/",
+      "parentCategoryId": "36"
+    },
+    {
+      "categoryId": 493,
+      "categoryName": "簡単鶏肉料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/36-493/",
+      "parentCategoryId": "36"
+    },
+    {
+      "categoryId": 494,
+      "categoryName": "簡単豚肉料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/36-494/",
+      "parentCategoryId": "36"
+    },
+    {
+      "categoryId": 495,
+      "categoryName": "簡単魚料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/36-495/",
+      "parentCategoryId": "36"
+    },
+    {
+      "categoryId": 496,
+      "categoryName": "5分以内の簡単料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/36-496/",
+      "parentCategoryId": "36"
+    },
+    {
+      "categoryId": 497,
+      "categoryName": "男の簡単料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/36-497/",
+      "parentCategoryId": "36"
+    },
+    {
+      "categoryId": 708,
+      "categoryName": "無限",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/36-708/",
+      "parentCategoryId": "36"
+    },
+    {
+      "categoryId": 498,
+      "categoryName": "100円以下の節約料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/37-498/",
+      "parentCategoryId": "37"
+    },
+    {
+      "categoryId": 499,
+      "categoryName": "300円前後の節約料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/37-499/",
+      "parentCategoryId": "37"
+    },
+    {
+      "categoryId": 500,
+      "categoryName": "500円前後の節約料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/37-500/",
+      "parentCategoryId": "37"
+    },
+    {
+      "categoryId": 501,
+      "categoryName": "朝食の献立（朝ごはん）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/38-501/",
+      "parentCategoryId": "38"
+    },
+    {
+      "categoryId": 502,
+      "categoryName": "昼食の献立（昼ごはん）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/38-502/",
+      "parentCategoryId": "38"
+    },
+    {
+      "categoryId": 503,
+      "categoryName": "夕食の献立（晩御飯）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/38-503/",
+      "parentCategoryId": "38"
+    },
+    {
+      "categoryId": 504,
+      "categoryName": "低カロリー・ダイエット",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/39-504/",
+      "parentCategoryId": "39"
+    },
+    {
+      "categoryId": 505,
+      "categoryName": "ヘルシー料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/39-505/",
+      "parentCategoryId": "39"
+    },
+    {
+      "categoryId": 705,
+      "categoryName": "血圧が高めの方",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/39-705/",
+      "parentCategoryId": "39"
+    },
+    {
+      "categoryId": 699,
+      "categoryName": "糖質制限・低糖質",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/39-699/",
+      "parentCategoryId": "39"
+    },
+    {
+      "categoryId": 506,
+      "categoryName": "マクロビオティック",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/39-506/",
+      "parentCategoryId": "39"
+    },
+    {
+      "categoryId": 507,
+      "categoryName": "ベジタリアン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/39-507/",
+      "parentCategoryId": "39"
+    },
+    {
+      "categoryId": 508,
+      "categoryName": "お疲れ気味の方",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/39-508/",
+      "parentCategoryId": "39"
+    },
+    {
+      "categoryId": 509,
+      "categoryName": "妊娠中の食事",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/39-509/",
+      "parentCategoryId": "39"
+    },
+    {
+      "categoryId": 510,
+      "categoryName": "離乳食",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/39-510/",
+      "parentCategoryId": "39"
+    },
+    {
+      "categoryId": 511,
+      "categoryName": "幼児食",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/39-511/",
+      "parentCategoryId": "39"
+    },
+    {
+      "categoryId": 709,
+      "categoryName": "薬膳料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/39-709/",
+      "parentCategoryId": "39"
+    },
+    {
+      "categoryId": 724,
+      "categoryName": "胃に優しい・消化に良い料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/39-724/",
+      "parentCategoryId": "39"
+    },
+    {
+      "categoryId": 512,
+      "categoryName": "圧力鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-512/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 513,
+      "categoryName": "ホームベーカリー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-513/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 514,
+      "categoryName": "シリコンスチーマー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-514/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 707,
+      "categoryName": "キッチンバサミ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-707/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 515,
+      "categoryName": "タジン鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-515/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 516,
+      "categoryName": "炊飯器",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-516/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 704,
+      "categoryName": "メイソンジャー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-704/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 517,
+      "categoryName": "スープジャー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-517/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 518,
+      "categoryName": "ホットプレート",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-518/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 519,
+      "categoryName": "電子レンジ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-519/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 520,
+      "categoryName": "無水鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-520/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 521,
+      "categoryName": "ホーロー鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-521/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 522,
+      "categoryName": "ミキサー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-522/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 523,
+      "categoryName": "中華鍋",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-523/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 524,
+      "categoryName": "フライパン一つでできる",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-524/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 525,
+      "categoryName": "メーカー・ブランド",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-525/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 526,
+      "categoryName": "その他の調理器具",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-526/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 712,
+      "categoryName": "スキレット",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/40-712/",
+      "parentCategoryId": "40"
+    },
+    {
+      "categoryId": 531,
+      "categoryName": "酢豚",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-531/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 532,
+      "categoryName": "チンジャオロース",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-532/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 533,
+      "categoryName": "八宝菜",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-533/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 534,
+      "categoryName": "マーボー豆腐（麻婆豆腐）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-534/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 535,
+      "categoryName": "エビチリ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-535/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 536,
+      "categoryName": "エビマヨ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-536/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 537,
+      "categoryName": "ホイコーロー（回鍋肉）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-537/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 539,
+      "categoryName": "バンバンジー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-539/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 542,
+      "categoryName": "油淋鶏",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-542/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 713,
+      "categoryName": "よだれ鶏",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-713/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 543,
+      "categoryName": "ビーフン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-543/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 538,
+      "categoryName": "ジャージャー麺",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-538/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 541,
+      "categoryName": "坦々麺",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-541/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 546,
+      "categoryName": "春巻き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-546/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 547,
+      "categoryName": "肉まん",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-547/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 548,
+      "categoryName": "焼売（シュウマイ）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-548/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 540,
+      "categoryName": "杏仁豆腐",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-540/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 544,
+      "categoryName": "ちまき（中華ちまき）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-544/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 545,
+      "categoryName": "サンラータン（酸辣湯）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-545/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 549,
+      "categoryName": "その他の中華料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/41-549/",
+      "parentCategoryId": "41"
+    },
+    {
+      "categoryId": 550,
+      "categoryName": "チャプチェ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-550/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 551,
+      "categoryName": "チヂミ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-551/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 552,
+      "categoryName": "ビビンバ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-552/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 553,
+      "categoryName": "ナムル",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-553/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 554,
+      "categoryName": "キムチ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-554/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 555,
+      "categoryName": "プルコギ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-555/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 565,
+      "categoryName": "スンドゥブ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-565/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 556,
+      "categoryName": "チョレギサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-556/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 557,
+      "categoryName": "冷麺",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-557/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 558,
+      "categoryName": "サムゲタン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-558/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 559,
+      "categoryName": "サムギョプサル",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-559/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 560,
+      "categoryName": "クッパ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-560/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 561,
+      "categoryName": "タッカルビ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-561/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 714,
+      "categoryName": "チーズタッカルビ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-714/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 562,
+      "categoryName": "カムジャタン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-562/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 563,
+      "categoryName": "トッポギ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-563/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 564,
+      "categoryName": "ケジャン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-564/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 566,
+      "categoryName": "テンジャンチゲ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-566/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 567,
+      "categoryName": "その他のチゲ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-567/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 568,
+      "categoryName": "その他の韓国料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/42-568/",
+      "parentCategoryId": "42"
+    },
+    {
+      "categoryId": 569,
+      "categoryName": "ピザ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-569/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 570,
+      "categoryName": "ミネストローネ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-570/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 578,
+      "categoryName": "リゾット",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-578/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 571,
+      "categoryName": "バーニャカウダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-571/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 577,
+      "categoryName": "カルパッチョ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-577/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 572,
+      "categoryName": "アクアパッツァ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-572/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 573,
+      "categoryName": "ピカタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-573/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 574,
+      "categoryName": "ブルスケッタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-574/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 575,
+      "categoryName": "パニーノ・パニーニ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-575/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 576,
+      "categoryName": "カルツォーネ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-576/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 579,
+      "categoryName": "カプレーゼ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-579/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 580,
+      "categoryName": "パンナコッタ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-580/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 581,
+      "categoryName": "ティラミス",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-581/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 582,
+      "categoryName": "その他のイタリア料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/43-582/",
+      "parentCategoryId": "43"
+    },
+    {
+      "categoryId": 583,
+      "categoryName": "ラタトゥイユ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/44-583/",
+      "parentCategoryId": "44"
+    },
+    {
+      "categoryId": 584,
+      "categoryName": "チーズフォンデュ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/44-584/",
+      "parentCategoryId": "44"
+    },
+    {
+      "categoryId": 585,
+      "categoryName": "テリーヌ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/44-585/",
+      "parentCategoryId": "44"
+    },
+    {
+      "categoryId": 586,
+      "categoryName": "ブイヤベース",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/44-586/",
+      "parentCategoryId": "44"
+    },
+    {
+      "categoryId": 587,
+      "categoryName": "ムニエル",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/44-587/",
+      "parentCategoryId": "44"
+    },
+    {
+      "categoryId": 588,
+      "categoryName": "ビスク",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/44-588/",
+      "parentCategoryId": "44"
+    },
+    {
+      "categoryId": 589,
+      "categoryName": "マリネ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/44-589/",
+      "parentCategoryId": "44"
+    },
+    {
+      "categoryId": 590,
+      "categoryName": "ガレット",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/44-590/",
+      "parentCategoryId": "44"
+    },
+    {
+      "categoryId": 591,
+      "categoryName": "その他のフランス料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/44-591/",
+      "parentCategoryId": "44"
+    },
+    {
+      "categoryId": 596,
+      "categoryName": "タイ料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/46-596/",
+      "parentCategoryId": "46"
+    },
+    {
+      "categoryId": 597,
+      "categoryName": "インド料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/46-597/",
+      "parentCategoryId": "46"
+    },
+    {
+      "categoryId": 598,
+      "categoryName": "ベトナム料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/46-598/",
+      "parentCategoryId": "46"
+    },
+    {
+      "categoryId": 599,
+      "categoryName": "メキシコ料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/46-599/",
+      "parentCategoryId": "46"
+    },
+    {
+      "categoryId": 602,
+      "categoryName": "ゴーヤチャンプル",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/47-602/",
+      "parentCategoryId": "47"
+    },
+    {
+      "categoryId": 600,
+      "categoryName": "ソーキそば・沖縄そば",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/47-600/",
+      "parentCategoryId": "47"
+    },
+    {
+      "categoryId": 601,
+      "categoryName": "海ぶどう",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/47-601/",
+      "parentCategoryId": "47"
+    },
+    {
+      "categoryId": 603,
+      "categoryName": "そうめんチャンプルー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/47-603/",
+      "parentCategoryId": "47"
+    },
+    {
+      "categoryId": 604,
+      "categoryName": "ラフテー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/47-604/",
+      "parentCategoryId": "47"
+    },
+    {
+      "categoryId": 605,
+      "categoryName": "ミミガー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/47-605/",
+      "parentCategoryId": "47"
+    },
+    {
+      "categoryId": 606,
+      "categoryName": "ジューシー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/47-606/",
+      "parentCategoryId": "47"
+    },
+    {
+      "categoryId": 607,
+      "categoryName": "サーターアンダーギー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/47-607/",
+      "parentCategoryId": "47"
+    },
+    {
+      "categoryId": 608,
+      "categoryName": "ヒラヤーチー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/47-608/",
+      "parentCategoryId": "47"
+    },
+    {
+      "categoryId": 609,
+      "categoryName": "コーレーグス・島唐辛子",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/47-609/",
+      "parentCategoryId": "47"
+    },
+    {
+      "categoryId": 610,
+      "categoryName": "その他の沖縄料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/47-610/",
+      "parentCategoryId": "47"
+    },
+    {
+      "categoryId": 612,
+      "categoryName": "ちゃんちゃん焼き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-612/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 613,
+      "categoryName": "筑前煮",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-613/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 611,
+      "categoryName": "ジンギスカン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-611/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 614,
+      "categoryName": "すいとん",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-614/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 615,
+      "categoryName": "ほうとう",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-615/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 616,
+      "categoryName": "ひつまぶし",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-616/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 617,
+      "categoryName": "ちゃんぽん",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-617/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 618,
+      "categoryName": "明石焼き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-618/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 619,
+      "categoryName": "いかめし",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-619/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 620,
+      "categoryName": "せんべい汁",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-620/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 621,
+      "categoryName": "皿うどん",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-621/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 622,
+      "categoryName": "きりたんぽ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-622/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 623,
+      "categoryName": "のっぺい汁",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-623/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 624,
+      "categoryName": "治部煮",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-624/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 625,
+      "categoryName": "いちご煮",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-625/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 626,
+      "categoryName": "三升漬け",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-626/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 627,
+      "categoryName": "三平汁",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-627/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 628,
+      "categoryName": "じゃっぱ汁",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-628/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 629,
+      "categoryName": "辛子蓮根",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-629/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 715,
+      "categoryName": "芋煮",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-715/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 716,
+      "categoryName": "五平餅",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-716/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 630,
+      "categoryName": "その他の郷土料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/48-630/",
+      "parentCategoryId": "48"
+    },
+    {
+      "categoryId": 636,
+      "categoryName": "きんとん（栗きんとん）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-636/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 637,
+      "categoryName": "お雑煮",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-637/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 638,
+      "categoryName": "錦玉子・伊達巻",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-638/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 639,
+      "categoryName": "なます",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-639/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 640,
+      "categoryName": "黒豆",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-640/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 641,
+      "categoryName": "数の子",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-641/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 642,
+      "categoryName": "田作り",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-642/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 643,
+      "categoryName": "煮しめ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-643/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 644,
+      "categoryName": "たたきごぼう",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-644/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 645,
+      "categoryName": "昆布巻き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-645/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 646,
+      "categoryName": "酢れんこん",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-646/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 648,
+      "categoryName": "おせちの海老料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-648/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 649,
+      "categoryName": "八幡巻き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-649/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 650,
+      "categoryName": "簡単おせち料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-650/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 651,
+      "categoryName": "その他のおせち料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/49-651/",
+      "parentCategoryId": "49"
+    },
+    {
+      "categoryId": 652,
+      "categoryName": "クリスマスケーキ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/50-652/",
+      "parentCategoryId": "50"
+    },
+    {
+      "categoryId": 653,
+      "categoryName": "クリスマスオードブル",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/50-653/",
+      "parentCategoryId": "50"
+    },
+    {
+      "categoryId": 654,
+      "categoryName": "クリスマスチキン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/50-654/",
+      "parentCategoryId": "50"
+    },
+    {
+      "categoryId": 655,
+      "categoryName": "クリスマスサラダ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/50-655/",
+      "parentCategoryId": "50"
+    },
+    {
+      "categoryId": 656,
+      "categoryName": "クリスマス向けアレンジ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/50-656/",
+      "parentCategoryId": "50"
+    },
+    {
+      "categoryId": 657,
+      "categoryName": "ひな祭りケーキ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/51-657/",
+      "parentCategoryId": "51"
+    },
+    {
+      "categoryId": 658,
+      "categoryName": "ひな祭りちらしずし",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/51-658/",
+      "parentCategoryId": "51"
+    },
+    {
+      "categoryId": 659,
+      "categoryName": "ひな祭り向けアレンジ",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/51-659/",
+      "parentCategoryId": "51"
+    },
+    {
+      "categoryId": 660,
+      "categoryName": "ホワイトデー",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/52-660/",
+      "parentCategoryId": "52"
+    },
+    {
+      "categoryId": 661,
+      "categoryName": "お花見・春の行楽",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/52-661/",
+      "parentCategoryId": "52"
+    },
+    {
+      "categoryId": 662,
+      "categoryName": "子供の日",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/52-662/",
+      "parentCategoryId": "52"
+    },
+    {
+      "categoryId": 663,
+      "categoryName": "母の日",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/52-663/",
+      "parentCategoryId": "52"
+    },
+    {
+      "categoryId": 664,
+      "categoryName": "父の日",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/53-664/",
+      "parentCategoryId": "53"
+    },
+    {
+      "categoryId": 665,
+      "categoryName": "夏バテ対策",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/53-665/",
+      "parentCategoryId": "53"
+    },
+    {
+      "categoryId": 666,
+      "categoryName": "お祭り",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/53-666/",
+      "parentCategoryId": "53"
+    },
+    {
+      "categoryId": 667,
+      "categoryName": "十五夜・お月見",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/53-667/",
+      "parentCategoryId": "53"
+    },
+    {
+      "categoryId": 668,
+      "categoryName": "ハロウィン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/54-668/",
+      "parentCategoryId": "54"
+    },
+    {
+      "categoryId": 669,
+      "categoryName": "秋の行楽・紅葉",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/54-669/",
+      "parentCategoryId": "54"
+    },
+    {
+      "categoryId": 670,
+      "categoryName": "七五三の料理",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/54-670/",
+      "parentCategoryId": "54"
+    },
+    {
+      "categoryId": 671,
+      "categoryName": "節分",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/55-671/",
+      "parentCategoryId": "55"
+    },
+    {
+      "categoryId": 672,
+      "categoryName": "恵方巻き",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/55-672/",
+      "parentCategoryId": "55"
+    },
+    {
+      "categoryId": 673,
+      "categoryName": "ななくさ粥（七草粥）",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/55-673/",
+      "parentCategoryId": "55"
+    },
+    {
+      "categoryId": 674,
+      "categoryName": "バレンタイン",
+      "categoryUrl": "https://recipe.rakuten.co.jp/category/55-674/",
+      "parentCategoryId": "55"
+    }
+  ]
+}
