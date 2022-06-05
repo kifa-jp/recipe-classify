@@ -11,15 +11,14 @@ import {
 } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import Image from 'next/image';
-import * as fs from 'fs';
-import * as path from 'path';
 import { AiFillHeart, AiFillDislike } from 'react-icons/ai';
 
 // SSR
 export async function getServerSideProps({ params }: { params: any }) {
-  const jsonPath = path.join(process.cwd(), 'public', `${params.id}.json`);
-  const jsonText = fs.readFileSync(jsonPath, 'utf-8');
-  const data = JSON.parse(jsonText);
+  const res = await fetch(
+    `https://app.rakuten.co.jp/services/api/Recipe/CategoryRanking/20170426?format=json&applicationId=${process.env.RAKUTEN_API_APP_ID}`,
+  );
+  const data = await res.json();
 
   return {
     props: {
@@ -41,22 +40,23 @@ const Product = ({ product }: { product: any }) => {
             </NextLink>
           </Box>
           <Box
-            p={4}
+            p={8}
             mb={8}
             boxShadow={'lg'}
             textAlign="center"
             rounded={6}
             bg={'white'}
           >
-            <Heading m={0} as="h2">
-              {id}
+            <Heading m={0} as="h2" fontSize={'xl'}>
+              {product.result[Number(id)].recipeTitle}
             </Heading>
-            <Text>{product.name}</Text>
+            <Text>{product.result[Number(id)].recipeDescription}</Text>
             <Image
-              src={product.image}
-              alt={product.name}
-              width="300"
-              height="400"
+              src={product.result[Number(id)].foodImageUrl}
+              alt={product.result[Number(id)].recipeTitle}
+              width={600}
+              height={450}
+              objectFit="contain"
             />
           </Box>
           <Flex w={'100%'} mb={4}>
@@ -79,20 +79,23 @@ const Product = ({ product }: { product: any }) => {
             </Box>
             <Spacer />
             <Box w={'35%'} textAlign="center">
-              <Button
-                bg={'red.500'}
-                color="white"
-                w={'100%'}
-                _hover={{ bg: 'red.400' }}
-                _active={{ bg: 'red.400' }}
-              >
-                <Box p={0.8}>
-                  <AiFillHeart />
-                </Box>
-                <Box as="span" ml={1} p={0.8}>
-                  Like
-                </Box>
-              </Button>
+              <NextLink href={`./${Number(id) + 1}`} passHref>
+                <Button
+                  bg={'red.500'}
+                  color="white"
+                  w={'100%'}
+                  _hover={{ bg: 'red.400' }}
+                  _active={{ bg: 'red.400' }}
+                  as="a"
+                >
+                  <Box p={0.8}>
+                    <AiFillHeart />
+                  </Box>
+                  <Box as="span" ml={1} p={0.8}>
+                    Like
+                  </Box>
+                </Button>
+              </NextLink>
             </Box>
             <Spacer />
           </Flex>

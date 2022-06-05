@@ -29,22 +29,22 @@ const ProductsList = () => {
           bg={'green.300'}
           roundedTop="6"
         >
-          商品一覧
+          レシピ一覧
         </Heading>
 
         <UnorderedList w={'100%'} px={4}>
           <ListItem>
-            <NextLink href="/products/smartphone">
+            <NextLink href="/products/0">
               <Link>スマートフォン</Link>
             </NextLink>
           </ListItem>
           <ListItem>
-            <NextLink href="/products/pc">
+            <NextLink href="/products/1">
               <Link>パソコン</Link>
             </NextLink>
           </ListItem>
           <ListItem>
-            <NextLink href="/products/headphone">
+            <NextLink href="/products/2">
               <Link>ヘッドホン</Link>
             </NextLink>
           </ListItem>
