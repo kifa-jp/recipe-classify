@@ -1,14 +1,4 @@
-import {
-  Center,
-  Flex,
-  Heading,
-  ListItem,
-  UnorderedList,
-  Link,
-  Grid,
-  GridItem,
-  Box,
-} from '@chakra-ui/react';
+import { Center, Flex, Heading, Link, Grid, GridItem } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -25,24 +15,6 @@ export async function getServerSideProps() {
     },
   };
 }
-
-type CategoryList = {
-  large: Array<LargeCategory>;
-  medium: Array<MediumCategory>;
-};
-
-type LargeCategory = {
-  categoryId: string;
-  categoryName: string;
-  categoryUrl: string;
-};
-
-type MediumCategory = {
-  categoryId: number;
-  categoryName: string;
-  categoryUrl: string;
-  parentCategoryId: string;
-};
 
 // TODO: フォルダ名をproductsから変更
 const CategoryList = ({ categoryList }: { categoryList: CategoryList }) => {
@@ -75,10 +47,7 @@ const CategoryList = ({ categoryList }: { categoryList: CategoryList }) => {
         >
           {categoryList.large.map((category) => (
             <GridItem w={'100%'} key={category.categoryId} px={4}>
-              <NextLink
-                href={`/products/${category.categoryId}?rank=0`}
-                passHref
-              >
+              <NextLink href={`/products/${category.categoryId}/0`} passHref>
                 <Link>{category.categoryName}</Link>
               </NextLink>
             </GridItem>
