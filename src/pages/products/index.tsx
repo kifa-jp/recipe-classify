@@ -29,22 +29,10 @@ const CategoryList = ({ categoryList }: { categoryList: CategoryList }) => {
         w={['350px', '640px', '800px', '960px']}
         boxShadow="lg"
       >
-        <Heading
-          w={'100%'}
-          px={4}
-          py={2}
-          mb={4}
-          as="h2"
-          bg={'green.300'}
-          roundedTop="6"
-        >
+        <Heading w={'100%'} px={4} py={2} mb={4} as="h2" bg={'green.300'} roundedTop="6">
           カテゴリ一覧
         </Heading>
-        <Grid
-          templateColumns={['repeat(2, 1fr)', 'repeat(3, 1fr)']}
-          gap={2}
-          px={4}
-        >
+        <Grid templateColumns={['repeat(2, 1fr)', 'repeat(3, 1fr)']} gap={2} px={4}>
           {categoryList.large.map((category) => (
             <GridItem w={'100%'} key={category.categoryId} px={4}>
               <NextLink href={`/products/${category.categoryId}/0`} passHref>

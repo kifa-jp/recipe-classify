@@ -1,14 +1,5 @@
 import { NextRouter, useRouter } from 'next/router';
-import {
-  Flex,
-  Heading,
-  Text,
-  Link,
-  Box,
-  Center,
-  Button,
-  Spacer,
-} from '@chakra-ui/react';
+import { Flex, Heading, Text, Link, Box, Center, Button, Spacer } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import Image from 'next/image';
 import { AiFillHeart, AiFillDislike } from 'react-icons/ai';
@@ -44,59 +35,63 @@ export async function getServerSideProps({ params }: { params: Params }) {
   };
 }
 
+// parentCategoryIdとcategoryIdを連結する
+const categoryIdIncludedParent = (childCategory: MediumCategory) => {
+  return childCategory.parentCategoryId + '-' + childCategory.categoryId;
+};
+
+// idからparentCategoryIdを除外する
+const categoryIdExcludedParent = (id: string) => {
+  const ids = id.split('-');
+  return ids.length === 1 ? ids[0] : ids[1];
+};
+
 // categoryListとrouter情報から次に表示するパスを決定する
-const NextDisplayPath = (
-  categoryList: CategoryList,
-  id: string | string[] | undefined,
-  rank: string | string[] | undefined,
-) => {
-  //const router = useRouter();
-  //const { id, rank } = router.query;
+const nextDisplayPath = (categoryList: CategoryList, id: string, rank: string) => {
   const displayPath: string = '/products';
   const maxRank: number = 4;
   let categoryIndex: number = 0;
 
-  let nextId: string | string[] | undefined = id;
+  let nextId: string = id;
   let nextRank: number = Number(rank) + 1;
 
   // 同じカテゴリ内の次のランクのパスを返す
   if (nextRank < maxRank) {
-    return displayPath + '/' + nextId + '/' + nextRank.toString();
+    return displayPath + '/' + nextId + '/' + nextRank;
   }
 
   // 次のカテゴリを検索してランク上位のパスを返す
   if (
-    (categoryIndex = categoryList.large.findIndex(
-      (element) => element.categoryId === id,
-    )) != -1
+    (categoryIndex = categoryList.large.findIndex((element) => element.categoryId === categoryIdExcludedParent(id))) !==
+    -1
   ) {
-    nextId = categoryList.large[categoryIndex + 1].categoryId;
-    nextRank = 0;
+    nextId =
+      categoryIndex < categoryList.large.length - 1
+        ? categoryList.large[categoryIndex + 1].categoryId
+        : categoryIdIncludedParent(categoryList.medium[0]);
   } else if (
     (categoryIndex = categoryList.medium.findIndex(
-      (element) => element.categoryId.toString() === id,
-    )) != -1
+      (element) => element.categoryId.toString() === categoryIdExcludedParent(id),
+    )) !== -1
   ) {
-    nextId = categoryList.medium[categoryIndex + 1].categoryId.toString();
-    nextRank = 0;
-  } else {
-    // 最後まで検索した場合は先頭のカテゴリに戻る
-    nextId = categoryList.large[0].categoryId;
-    nextRank = 0;
+    nextId =
+      categoryIndex < categoryList.medium.length - 1
+        ? categoryIdIncludedParent(categoryList.medium[categoryIndex + 1])
+        : categoryList.large[0].categoryId;
   }
 
-  return displayPath + '/' + nextId + '/' + nextRank.toString();
+  nextRank = 0;
+
+  return displayPath + '/' + nextId + '/' + nextRank;
 };
 
-const Recipe = ({
-  categoryList,
-  recipeList,
-}: {
-  categoryList: CategoryList;
-  recipeList: RecipeList;
-}) => {
+const Recipe = ({ categoryList, recipeList }: { categoryList: CategoryList; recipeList: RecipeList }) => {
   const router = useRouter();
-  const { id, rank } = router.query;
+  let { id, rank } = router.query;
+
+  // string型以外は許可しない
+  if (!id || Array.isArray(id)) id = '';
+  if (!rank || Array.isArray(rank)) rank = '';
 
   return (
     <Center bg={'gray.100'}>
@@ -107,14 +102,7 @@ const Recipe = ({
               <Link>商品一覧へ</Link>
             </NextLink>
           </Box>
-          <Box
-            p={8}
-            mb={8}
-            boxShadow={'lg'}
-            textAlign="center"
-            rounded={6}
-            bg={'white'}
-          >
+          <Box p={8} mb={8} boxShadow={'lg'} textAlign="center" rounded={6} bg={'white'}>
             <Heading m={0} as="h2" fontSize={'xl'}>
               {console.log(recipeList)}
               {recipeList.result[Number(rank)].recipeTitle}
@@ -131,13 +119,7 @@ const Recipe = ({
           <Flex w={'100%'} mb={4}>
             <Spacer />
             <Box w={'35%'} textAlign="center">
-              <Button
-                bg={'gray.500'}
-                color="white"
-                w={'100%'}
-                _hover={{ bg: 'gray.400' }}
-                _active={{ bg: 'gray.400' }}
-              >
+              <Button bg={'gray.500'} color="white" w={'100%'} _hover={{ bg: 'gray.400' }} _active={{ bg: 'gray.400' }}>
                 <Box p={0.8}>
                   <AiFillDislike />
                 </Box>
@@ -148,7 +130,7 @@ const Recipe = ({
             </Box>
             <Spacer />
             <Box w={'35%'} textAlign="center">
-              <NextLink href={NextDisplayPath(categoryList, id, rank)} passHref>
+              <NextLink href={nextDisplayPath(categoryList, id, rank)} passHref>
                 <Button
                   bg={'red.500'}
                   color="white"
