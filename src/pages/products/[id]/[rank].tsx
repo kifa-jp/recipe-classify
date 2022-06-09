@@ -20,20 +20,43 @@ export async function getServerSideProps({ params }: { params: Params }) {
   const jsonText = fs.readFileSync(jsonPath, 'utf-8');
   const categoryList = JSON.parse(jsonText);
 
-  // TODO: エラー発生時の再取得処理を実装(タイムアウト：1秒)
   // カテゴリIDに応じた上位4ランクのレシピ情報を取得
-  const res = await fetch(
-    `https://app.rakuten.co.jp/services/api/Recipe/CategoryRanking/20170426?format=json&categoryId=${params.id}&applicationId=${process.env.RAKUTEN_API_APP_ID}`,
-  );
-  const recipeList = await res.json();
+  const apiUrl = `https://app.rakuten.co.jp/services/api/Recipe/CategoryRanking/20170426?format=json&categoryId=${params.id}&applicationId=${process.env.RAKUTEN_API_APP_ID}`;
+  try {
+    const res = await fetchWithRetry(apiUrl, 3, 1000);
+    const recipeList = await res.json();
 
-  return {
-    props: {
-      categoryList: categoryList,
-      recipeList: recipeList,
-    },
-  };
+    return {
+      props: {
+        categoryList: categoryList,
+        recipeList: recipeList,
+      },
+    };
+  } catch (err) {
+    await new Promise((resolve) => setTimeout(resolve, 3000));
+    return;
+  }
 }
+
+// fetch失敗時に指定回数リトライする
+const fetchWithRetry: any = async (url: string, retries: number, retryDelay: number) => {
+  try {
+    const res = await fetch(url);
+    if (res.ok) {
+      return res;
+    } else {
+      console.log('fetch response error');
+      if (retries === 1) {
+        throw new Error('retry out');
+      }
+      await new Promise((resolve) => setTimeout(resolve, retryDelay));
+      return await fetchWithRetry(url, retries - 1, retryDelay);
+    }
+  } catch (err) {
+    console.log('retry out');
+    return;
+  }
+};
 
 // parentCategoryIdとcategoryIdを連結する
 const categoryIdIncludedParent = (childCategory: MediumCategory) => {
@@ -98,13 +121,12 @@ const Recipe = ({ categoryList, recipeList }: { categoryList: CategoryList; reci
       <Center px={2} minH="100vh" w={['sm', 'md', 'lg', 'xl']} bg={'gray.100'}>
         <Flex flexDir="column">
           <Box textAlign={'right'} mb={4}>
-            <NextLink href="/products">
-              <Link>商品一覧へ</Link>
+            <NextLink href="/products" passHref>
+              <Link>カテゴリ一覧へ</Link>
             </NextLink>
           </Box>
           <Box p={8} mb={8} boxShadow={'lg'} textAlign="center" rounded={6} bg={'white'}>
             <Heading m={0} as="h2" fontSize={'xl'}>
-              {console.log(recipeList)}
               {recipeList.result[Number(rank)].recipeTitle}
             </Heading>
             <Text>{recipeList.result[Number(rank)].recipeDescription}</Text>
@@ -119,14 +141,23 @@ const Recipe = ({ categoryList, recipeList }: { categoryList: CategoryList; reci
           <Flex w={'100%'} mb={4}>
             <Spacer />
             <Box w={'35%'} textAlign="center">
-              <Button bg={'gray.500'} color="white" w={'100%'} _hover={{ bg: 'gray.400' }} _active={{ bg: 'gray.400' }}>
-                <Box p={0.8}>
-                  <AiFillDislike />
-                </Box>
-                <Box as="span" ml={1} p={0.8}>
-                  Dislike
-                </Box>
-              </Button>
+              <NextLink href={nextDisplayPath(categoryList, id, rank)} passHref>
+                <Button
+                  bg={'gray.500'}
+                  color="white"
+                  w={'100%'}
+                  _hover={{ bg: 'gray.400' }}
+                  _active={{ bg: 'gray.400' }}
+                  as="a"
+                >
+                  <Box p={0.8}>
+                    <AiFillDislike />
+                  </Box>
+                  <Box as="span" ml={1} p={0.8}>
+                    Dislike
+                  </Box>
+                </Button>
+              </NextLink>
             </Box>
             <Spacer />
             <Box w={'35%'} textAlign="center">
