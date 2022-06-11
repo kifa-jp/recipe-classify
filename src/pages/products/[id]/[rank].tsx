@@ -1,4 +1,4 @@
-import { NextRouter, useRouter } from 'next/router';
+import { useRouter } from 'next/router';
 import { Flex, Heading, Text, Link, Box, Center, Button, Spacer } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import Image from 'next/image';
@@ -10,33 +10,51 @@ type Params = {
   id: Array<string>;
 };
 
-// TODO: SSG+ISR化してAPI呼び出し回数を減らす
-// ランキング情報は頻繁に変わらないため、revalidateは長めに設定する
-
-// SSR
-export async function getServerSideProps({ params }: { params: Params }) {
-  // カテゴリ一覧を取得
-  const jsonPath = path.join(process.cwd(), 'public', 'category.json');
-  const jsonText = fs.readFileSync(jsonPath, 'utf-8');
-  const categoryList = JSON.parse(jsonText);
+// SSG
+export async function getStaticProps({ params }: { params: Params }) {
+  const categoryList: CategoryList = getCategoryList();
 
   // カテゴリIDに応じた上位4ランクのレシピ情報を取得
   const apiUrl = `https://app.rakuten.co.jp/services/api/Recipe/CategoryRanking/20170426?format=json&categoryId=${params.id}&applicationId=${process.env.RAKUTEN_API_APP_ID}`;
   try {
-    const res = await fetchWithRetry(apiUrl, 3, 1000);
-    const recipeList = await res.json();
+    const res = await fetchWithRetry(apiUrl, 2, 1000);
+    if (!res.ok) {
+      await new Promise((resolve) => setTimeout(resolve, 3000));
+      return {
+        props: {},
+        revalidate: 1,
+      };
+    }
+
+    const recipeList: RecipeList = (await res.json()) as RecipeList;
 
     return {
       props: {
         categoryList: categoryList,
         recipeList: recipeList,
       },
+      revalidate: 60 * 60 * 24 * 30, // 30days
     };
   } catch (err) {
     await new Promise((resolve) => setTimeout(resolve, 3000));
-    return;
+    return {
+      props: {},
+    };
   }
 }
+
+export async function getStaticPaths() {
+  return {
+    paths: [],
+    fallback: true,
+  };
+}
+
+const getCategoryList = () => {
+  const jsonPath = path.join(process.cwd(), 'public', 'category.json');
+  const jsonText = fs.readFileSync(jsonPath, 'utf-8');
+  return JSON.parse(jsonText) as CategoryList;
+};
 
 // fetch失敗時に指定回数リトライする
 const fetchWithRetry: any = async (url: string, retries: number, retryDelay: number) => {
@@ -45,15 +63,16 @@ const fetchWithRetry: any = async (url: string, retries: number, retryDelay: num
     if (res.ok) {
       return res;
     } else {
-      console.log('fetch response error');
+      console.log('fetch response error [retries = %d]', retries);
       if (retries === 1) {
-        throw new Error('retry out');
+        console.log('retry out');
+        return res;
       }
       await new Promise((resolve) => setTimeout(resolve, retryDelay));
       return await fetchWithRetry(url, retries - 1, retryDelay);
     }
   } catch (err) {
-    console.log('retry out');
+    console.log(err);
     return;
   }
 };
@@ -116,6 +135,17 @@ const Recipe = ({ categoryList, recipeList }: { categoryList: CategoryList; reci
   if (!id || Array.isArray(id)) id = '';
   if (!rank || Array.isArray(rank)) rank = '';
 
+  // TODO: fallbackをtrueにしてカード表示のテンプレートを表示
+  if (router.isFallback) {
+    return <Box>Loading...</Box>;
+  }
+
+  if (!categoryList || !recipeList) {
+    console.log('no lists');
+    router.push(`/products/${id}/${rank}`);
+  }
+
+  // TODO: レシピカードのコンポーネント化
   return (
     <Center bg={'gray.100'}>
       <Center px={2} minH="100vh" w={['sm', 'md', 'lg', 'xl']} bg={'gray.100'}>

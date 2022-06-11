@@ -3,8 +3,8 @@ import NextLink from 'next/link';
 import * as fs from 'fs';
 import * as path from 'path';
 
-// SSR
-export async function getServerSideProps() {
+// SSG
+export async function getStaticProps() {
   const jsonPath = path.join(process.cwd(), 'public', 'category.json');
   const jsonText = fs.readFileSync(jsonPath, 'utf-8');
   const data = JSON.parse(jsonText);
