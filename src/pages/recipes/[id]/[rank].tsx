@@ -1,10 +1,11 @@
 import { useRouter } from 'next/router';
-import { Flex, Heading, Text, Link, Box, Center, Button, Spacer } from '@chakra-ui/react';
-import NextLink from 'next/link';
-import Image from 'next/image';
-import { AiFillHeart, AiFillDislike } from 'react-icons/ai';
+import { Flex, Box, Center } from '@chakra-ui/react';
 import * as fs from 'fs';
 import * as path from 'path';
+import RecipeHeader from '../../../components/RecipeHeader';
+import RecipeCard from '../../../components/RecipeCard';
+import RecipeAction from '../../../components/RecipeActions';
+import RecipeFooter from '../../../components/parts/RecipeFooter';
 
 type Params = {
   id: Array<string>;
@@ -36,6 +37,7 @@ export async function getStaticProps({ params }: { params: Params }) {
       revalidate: 60 * 60 * 24 * 30, // 30days
     };
   } catch (err) {
+    console.log(err);
     await new Promise((resolve) => setTimeout(resolve, 3000));
     return {
       props: {},
@@ -145,72 +147,21 @@ const Recipe = ({ categoryList, recipeList }: { categoryList: CategoryList; reci
     router.push(`/products/${id}/${rank}`);
   }
 
-  // TODO: レシピカードのコンポーネント化
   return (
     <Center bg={'gray.100'}>
-      <Center px={2} minH="100vh" w={['sm', 'md', 'lg', 'xl']} bg={'gray.100'}>
+      <Center px={2} h="100vh" w="100vw" maxW={760} bg={'gray.100'}>
         <Flex flexDir="column">
-          <Box textAlign={'right'} mb={4}>
-            <NextLink href="/products" passHref>
-              <Link>カテゴリ一覧へ</Link>
-            </NextLink>
-          </Box>
-          <Box p={8} mb={8} boxShadow={'lg'} textAlign="center" rounded={6} bg={'white'}>
-            <Heading m={0} as="h2" fontSize={'xl'}>
-              {recipeList.result[Number(rank)].recipeTitle}
-            </Heading>
-            <Text>{recipeList.result[Number(rank)].recipeDescription}</Text>
-            <Image
-              src={recipeList.result[Number(rank)].foodImageUrl}
-              alt={recipeList.result[Number(rank)].recipeTitle}
-              width={600}
-              height={450}
-              objectFit="contain"
-            />
-          </Box>
-          <Flex w={'100%'} mb={4}>
-            <Spacer />
-            <Box w={'35%'} textAlign="center">
-              <NextLink href={nextDisplayPath(categoryList, id, rank)} passHref>
-                <Button
-                  bg={'gray.500'}
-                  color="white"
-                  w={'100%'}
-                  _hover={{ bg: 'gray.400' }}
-                  _active={{ bg: 'gray.400' }}
-                  as="a"
-                >
-                  <Box p={0.8}>
-                    <AiFillDislike />
-                  </Box>
-                  <Box as="span" ml={1} p={0.8}>
-                    Dislike
-                  </Box>
-                </Button>
-              </NextLink>
-            </Box>
-            <Spacer />
-            <Box w={'35%'} textAlign="center">
-              <NextLink href={nextDisplayPath(categoryList, id, rank)} passHref>
-                <Button
-                  bg={'red.500'}
-                  color="white"
-                  w={'100%'}
-                  _hover={{ bg: 'red.400' }}
-                  _active={{ bg: 'red.400' }}
-                  as="a"
-                >
-                  <Box p={0.8}>
-                    <AiFillHeart />
-                  </Box>
-                  <Box as="span" ml={1} p={0.8}>
-                    Like
-                  </Box>
-                </Button>
-              </NextLink>
-            </Box>
-            <Spacer />
-          </Flex>
+          <RecipeHeader />
+          <RecipeCard
+            title={recipeList.result[Number(rank)].recipeTitle}
+            description={recipeList.result[Number(rank)].recipeDescription}
+            imageUrl={recipeList.result[Number(rank)].foodImageUrl}
+          />
+          <RecipeAction
+            likePath={nextDisplayPath(categoryList, id, rank)}
+            dislikePath={nextDisplayPath(categoryList, id, rank)}
+          />
+          <RecipeFooter />
         </Flex>
       </Center>
     </Center>
