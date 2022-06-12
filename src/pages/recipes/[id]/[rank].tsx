@@ -92,7 +92,7 @@ const categoryIdExcludedParent = (id: string) => {
 
 // categoryListとrouter情報から次に表示するパスを決定する
 const nextDisplayPath = (categoryList: CategoryList, id: string, rank: string) => {
-  const displayPath: string = '/products';
+  const displayPath: string = '/recipes';
   const maxRank: number = 4;
   let categoryIndex: number = 0;
 
@@ -144,7 +144,7 @@ const Recipe = ({ categoryList, recipeList }: { categoryList: CategoryList; reci
 
   if (!categoryList || !recipeList) {
     console.log('no lists');
-    router.push(`/products/${id}/${rank}`);
+    router.push(`/recipes/${id}/${rank}`);
   }
 
   return (

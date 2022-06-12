@@ -5,7 +5,7 @@ import NextLink from 'next/link';
 function RecipeHeader() {
   return (
     <Box textAlign={'right'} mb={4}>
-      <NextLink href="/products" passHref>
+      <NextLink href="/recipes" passHref>
         <Link>カテゴリ一覧へ</Link>
       </NextLink>
     </Box>

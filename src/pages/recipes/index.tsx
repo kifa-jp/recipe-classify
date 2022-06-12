@@ -16,7 +16,6 @@ export async function getStaticProps() {
   };
 }
 
-// TODO: フォルダ名をproductsから変更
 const CategoryList = ({ categoryList }: { categoryList: CategoryList }) => {
   return (
     <Center px={2} minH="100vh" bg={'gray.100'}>
@@ -35,7 +34,7 @@ const CategoryList = ({ categoryList }: { categoryList: CategoryList }) => {
         <Grid templateColumns={['repeat(2, 1fr)', 'repeat(3, 1fr)']} gap={2} px={4}>
           {categoryList.large.map((category) => (
             <GridItem w={'100%'} key={category.categoryId} px={4}>
-              <NextLink href={`/products/${category.categoryId}/0`} passHref>
+              <NextLink href={`/recipes/${category.categoryId}/0`} passHref>
                 <Link>{category.categoryName}</Link>
               </NextLink>
             </GridItem>
