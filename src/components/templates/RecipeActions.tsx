@@ -1,7 +1,7 @@
 import { Box, Flex, Spacer } from '@chakra-ui/react';
 import React from 'react';
-import LikeButton from './parts/LikeButton';
-import DislikeButton from './parts/DislikeButton';
+import LikeButton from '../parts/LikeButton';
+import DislikeButton from '../parts/DislikeButton';
 
 function RecipeActions({ likePath, dislikePath }: { likePath: string; dislikePath: string }) {
   return (

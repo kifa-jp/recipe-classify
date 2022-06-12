@@ -1,11 +1,7 @@
 import { useRouter } from 'next/router';
-import { Flex, Box, Center } from '@chakra-ui/react';
 import * as fs from 'fs';
 import * as path from 'path';
-import RecipeHeader from '../../../components/RecipeHeader';
-import RecipeCard from '../../../components/RecipeCard';
-import RecipeAction from '../../../components/RecipeActions';
-import RecipeFooter from '../../../components/parts/RecipeFooter';
+import RecipeView from '../../../components/views/RecipeView';
 
 type Params = {
   id: Array<string>;
@@ -137,9 +133,9 @@ const Recipe = ({ categoryList, recipeList }: { categoryList: CategoryList; reci
   if (!id || Array.isArray(id)) id = '';
   if (!rank || Array.isArray(rank)) rank = '';
 
-  // TODO: fallbackをtrueにしてカード表示のテンプレートを表示
+  // fallback用に空のテンプレートを表示
   if (router.isFallback) {
-    return <Box>Loading...</Box>;
+    return <RecipeView title="Loading..." description="" imageUrl="" likePath="" disLikePath="" />;
   }
 
   if (!categoryList || !recipeList) {
@@ -148,23 +144,13 @@ const Recipe = ({ categoryList, recipeList }: { categoryList: CategoryList; reci
   }
 
   return (
-    <Center bg={'gray.100'}>
-      <Center px={2} h="100vh" w="100vw" maxW={760} bg={'gray.100'}>
-        <Flex flexDir="column">
-          <RecipeHeader />
-          <RecipeCard
-            title={recipeList.result[Number(rank)].recipeTitle}
-            description={recipeList.result[Number(rank)].recipeDescription}
-            imageUrl={recipeList.result[Number(rank)].foodImageUrl}
-          />
-          <RecipeAction
-            likePath={nextDisplayPath(categoryList, id, rank)}
-            dislikePath={nextDisplayPath(categoryList, id, rank)}
-          />
-          <RecipeFooter />
-        </Flex>
-      </Center>
-    </Center>
+    <RecipeView
+      title={recipeList.result[Number(rank)].recipeTitle}
+      description={recipeList.result[Number(rank)].recipeDescription}
+      imageUrl={recipeList.result[Number(rank)].foodImageUrl}
+      likePath={nextDisplayPath(categoryList, id, rank)}
+      disLikePath={nextDisplayPath(categoryList, id, rank)}
+    />
   );
 };
 

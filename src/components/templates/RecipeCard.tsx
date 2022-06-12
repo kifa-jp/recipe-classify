@@ -16,8 +16,7 @@ function RecipeCard({ title, description, imageUrl }: { title: string; descripti
         </Text>
       </Box>
       <Box position={'relative'} h={'80%'}>
-        {/* <Image src={imageUrl} alt={title} width={600} height={450} objectFit="contain" /> */}
-        <Image src={imageUrl} alt={title} layout="fill" objectFit="contain" />
+        {imageUrl && <Image src={imageUrl} alt={title} layout="fill" objectFit="contain" />}
       </Box>
     </Box>
   );
