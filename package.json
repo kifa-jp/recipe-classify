@@ -18,6 +18,7 @@
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.4.0",
     "sharp": "^0.30.6"
   },
   "devDependencies": {
@@ -45,6 +46,7 @@
     "semi": true,
     "singleQuote": true,
     "tabWidth": 2,
+    "printWidth": 120,
     "trailingComma": "all"
   }
 }
