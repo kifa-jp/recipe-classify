@@ -76,7 +76,10 @@ const Recipe = ({ categoryList, recipeList }: { categoryList: CategoryList; reci
     <RecipeView
       title={recipeList.result[Number(rank)].recipeTitle}
       description={recipeList.result[Number(rank)].recipeDescription}
+      cost={recipeList.result[Number(rank)].recipeCost}
+      indication={recipeList.result[Number(rank)].recipeIndication}
       imageUrl={recipeList.result[Number(rank)].foodImageUrl}
+      recipeUrl={recipeList.result[Number(rank)].recipeUrl}
       likePath={randomDisplayPath(categoryList)}
       disLikePath={randomDisplayPath(categoryList)}
     />

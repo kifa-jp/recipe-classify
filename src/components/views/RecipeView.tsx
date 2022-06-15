@@ -9,13 +9,19 @@ import RecipeHeader from '../templates/RecipeHeader';
 function RecipeView({
   title,
   description,
+  cost,
+  indication,
   imageUrl,
+  recipeUrl,
   likePath,
   disLikePath,
 }: {
   title: string;
   description: string;
+  cost: string;
+  indication: string;
   imageUrl: string;
+  recipeUrl: string;
   likePath: string;
   disLikePath: string;
 }) {
@@ -24,7 +30,14 @@ function RecipeView({
       <Center px={2} h="100vh" w="100vw" maxW={760} bg={'gray.100'}>
         <Flex flexDir="column">
           <RecipeHeader />
-          <RecipeCard title={title} description={description} imageUrl={imageUrl} />
+          <RecipeCard
+            title={title}
+            description={description}
+            cost={cost}
+            indication={indication}
+            imageUrl={imageUrl}
+            recipeUrl={recipeUrl}
+          />
           <RecipeActions likePath={likePath} dislikePath={disLikePath} />
           <RecipeFooter />
         </Flex>

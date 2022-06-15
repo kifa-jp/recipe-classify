@@ -26,7 +26,7 @@ type Recipe = {
   nickname: string;
   pickup: number;
   rank: string;
-  recipeConst: string;
+  recipeCost: string;
   recipeDescription: string;
   recipeId: number;
   recipeIndication: string;
