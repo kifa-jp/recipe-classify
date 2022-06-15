@@ -63,7 +63,18 @@ const Recipe = ({ categoryList, recipeList }: { categoryList: CategoryList; reci
   // fallback用に空のテンプレートを表示
   if (isFallback) {
     console.log('isFallback = true');
-    return <RecipeView title="Loading..." description="" imageUrl="" likePath="" disLikePath="" />;
+    return (
+      <RecipeView
+        title="Loading..."
+        description=""
+        cost=""
+        indication=""
+        imageUrl=""
+        recipeUrl=""
+        likePath=""
+        disLikePath=""
+      />
+    );
   }
 
   // string型以外は許可しない
