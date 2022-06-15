@@ -68,6 +68,17 @@ export const nextDisplayPath = (categoryList: CategoryList, id: string, rank: st
   return displayPath + '/' + nextId + '/' + nextRank;
 };
 
+// categoryList次に表示するパスをランダムに決定する
+export const randomDisplayPath = (categoryList: CategoryList) => {
+  const displayPath: string = '/recipes';
+  const maxRank: number = 4;
+  const randomIndex: number = Math.floor(Math.random() * categoryList.medium.length);
+  const nextId: string = categoryIdIncludedParent(categoryList.medium[randomIndex]);
+  const nextRank: number = Math.floor(Math.random() * maxRank);
+
+  return displayPath + '/' + nextId + '/' + nextRank;
+};
+
 // static
 
 // parentCategoryIdとcategoryIdを連結する
