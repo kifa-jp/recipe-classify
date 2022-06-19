@@ -40,7 +40,6 @@ type Recipe = {
 
 type LikeList = Array<Like>;
 type Like = {
-  id: number;
   recipeId: string;
   url: string;
   title: string;

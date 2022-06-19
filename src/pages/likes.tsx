@@ -1,23 +1,38 @@
 import { Box, Container, Flex, Heading, Link, Text } from '@chakra-ui/react';
+import dynamic from 'next/dynamic';
 import React from 'react';
+import { addLike, deleteLike, getLikeListFromLocalStorage, setLikeListToLocalStorage } from '../utils/likeUtils';
 
 const Likes = () => {
-  const likeList: LikeList = [
+  const testList: LikeList = [
     {
-      id: 1,
       recipeId: '1860023243',
       url: 'https://recipe.rakuten.co.jp/recipe/1860023243/',
       title: 'ジャガイモとチーズだけ！！【簡単ガレット】 レシピ・作り方 by スコクラさん｜楽天レシピ',
       image: 'https://recipe.r10s.jp/recipe-space/d/strg/ctrl/3/4b97079b047aedb6fee22c664d758e8bbb33a292.47.9.3.3.jpg',
     },
     {
-      id: 1,
-      recipeId: '1860023243',
+      recipeId: '1860023244',
+      url: 'https://recipe.rakuten.co.jp/recipe/1860023243/',
+      title: 'ジャガイモとチーズだけ！！【簡単ガレット】 レシピ・作り方 by スコクラさん｜楽天レシピ',
+      image: 'https://recipe.r10s.jp/recipe-space/d/strg/ctrl/3/4b97079b047aedb6fee22c664d758e8bbb33a292.47.9.3.3.jpg',
+    },
+    {
+      recipeId: '1860023245',
+      url: 'https://recipe.rakuten.co.jp/recipe/1860023243/',
+      title: 'ジャガイモとチーズだけ！！【簡単ガレット】 レシピ・作り方 by スコクラさん｜楽天レシピ',
+      image: 'https://recipe.r10s.jp/recipe-space/d/strg/ctrl/3/4b97079b047aedb6fee22c664d758e8bbb33a292.47.9.3.3.jpg',
+    },
+    {
+      recipeId: '1860023246',
       url: 'https://recipe.rakuten.co.jp/recipe/1860023243/',
       title: 'ジャガイモとチーズだけ！！【簡単ガレット】 レシピ・作り方 by スコクラさん｜楽天レシピ',
       image: 'https://recipe.r10s.jp/recipe-space/d/strg/ctrl/3/4b97079b047aedb6fee22c664d758e8bbb33a292.47.9.3.3.jpg',
     },
   ];
+
+  setLikeListToLocalStorage(testList);
+  const likeList = getLikeListFromLocalStorage();
 
   return (
     <Container maxW={600} px={2}>
@@ -49,4 +64,11 @@ const Likes = () => {
   );
 };
 
-export default Likes;
+const DynamicLikes = dynamic(
+  {
+    loader: async () => Likes,
+  },
+  { ssr: false },
+);
+
+export default DynamicLikes;
