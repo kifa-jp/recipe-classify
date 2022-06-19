@@ -79,6 +79,17 @@ export const randomDisplayPath = (categoryList: CategoryList) => {
   return displayPath + '/' + nextId + '/' + nextRank;
 };
 
+// RecipeからRecipeSummaryを生成する
+export const summarizeRecipe = (recipe: Recipe): RecipeSummary => {
+  const recipeSummary: RecipeSummary = {
+    recipeId: recipe.recipeId,
+    url: recipe.recipeUrl,
+    title: recipe.recipeTitle,
+    image: recipe.mediumImageUrl,
+  };
+  return recipeSummary;
+};
+
 // static
 
 // parentCategoryIdとcategoryIdを連結する

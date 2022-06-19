@@ -37,3 +37,11 @@ type Recipe = {
   shop: number;
   smallImageUrl: string;
 };
+
+type LikeList = Array<RecipeSummary>;
+type RecipeSummary = {
+  recipeId: number;
+  url: string;
+  title: string;
+  image: string;
+};
