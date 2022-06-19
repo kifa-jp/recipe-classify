@@ -38,9 +38,9 @@ type Recipe = {
   smallImageUrl: string;
 };
 
-type LikeList = Array<Like>;
-type Like = {
-  recipeId: string;
+type LikeList = Array<RecipeSummary>;
+type RecipeSummary = {
+  recipeId: number;
   url: string;
   title: string;
   image: string;

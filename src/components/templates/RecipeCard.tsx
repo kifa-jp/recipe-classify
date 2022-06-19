@@ -2,21 +2,16 @@ import { Box, Flex, Heading, Link, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import React from 'react';
 
-function RecipeCard({
-  title,
-  description,
-  cost,
-  indication,
-  imageUrl,
-  recipeUrl,
-}: {
+type RecipeCardProps = {
   title: string;
   description: string;
   cost: string;
   indication: string;
   imageUrl: string;
   recipeUrl: string;
-}) {
+};
+
+function RecipeCard({ title, description, cost, indication, imageUrl, recipeUrl }: RecipeCardProps) {
   return (
     <Box p={4} mb={8} boxShadow={'lg'} textAlign="center" rounded={6} bg={'white'} h={450} w={'95vw'} maxW={600}>
       <Box mb={3}>
