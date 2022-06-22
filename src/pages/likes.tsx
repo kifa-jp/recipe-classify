@@ -15,23 +15,31 @@ const Likes = () => {
         </Heading>
       </Box>
       {likeList.map((recipeSummary, key) => (
-        <Flex key={key} border={'1px solid'} borderColor={'gray.300'} borderRadius={15} overflow={'hidden'} mb={2}>
-          <Box
-            w={[65, 100]}
-            h={[65, 100]}
-            minW={[65, 100]}
-            backgroundImage={recipeSummary.image}
-            backgroundSize={'cover'}
-            backgroundPosition={'center'}
-          />
-          <Box p={2}>
-            <Link href={recipeSummary.url} target="_blank">
+        <Link key={key} href={recipeSummary.url} target="_blank">
+          <Flex
+            border={'1px solid'}
+            borderColor={'gray.300'}
+            borderRadius={15}
+            overflow={'hidden'}
+            mb={2}
+            _hover={{ bg: 'orange.50' }}
+            _active={{ bg: 'orange.50' }}
+          >
+            <Box
+              w={[65, 100]}
+              h={[65, 100]}
+              minW={[65, 100]}
+              backgroundImage={recipeSummary.image}
+              backgroundSize={'cover'}
+              backgroundPosition={'center'}
+            />
+            <Box p={2}>
               <Text fontSize={'md'} fontWeight={'bold'} lineHeight={'5'} color={'gray.800'} noOfLines={2}>
                 {recipeSummary.title}
               </Text>
-            </Link>
-          </Box>
-        </Flex>
+            </Box>
+          </Flex>
+        </Link>
       ))}
       <Box textAlign={'center'}>
         <NextLink href="./recipes" passHref>
