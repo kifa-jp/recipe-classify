@@ -7,6 +7,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <Box as="main">
       <Head>
+        <link rel="icon" href="/logo_32_gray.png" />
         <title>何食べたい？</title>
       </Head>
       <NavBar />
