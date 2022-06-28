@@ -16,7 +16,7 @@ const Likes = () => {
   return (
     <Container maxW={600} px={2}>
       <Box textAlign={'center'} h={'16'}>
-        <Heading as={'h2'} color={'gray.800'}>
+        <Heading as={'h2'} color={'gray.800'} fontSize={24}>
           マイリスト
         </Heading>
       </Box>

@@ -18,6 +18,7 @@ const LikesCard = ({ key, recipeSummary, clickDeleteButton }: LikesCardProps) =>
       borderRadius={10}
       overflow={'hidden'}
       mb={1}
+      boxShadow={'md'}
     >
       <Box w={'100%'}>
         <Link href={recipeSummary.url} target="_blank">

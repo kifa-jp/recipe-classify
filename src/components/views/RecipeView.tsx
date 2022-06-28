@@ -3,7 +3,6 @@ import React from 'react';
 import RecipeActions from '../templates/RecipeActions';
 import RecipeCard from '../templates/RecipeCard';
 import RecipeFooter from '../templates/RecipeFooter';
-import RecipeHeader from '../templates/RecipeHeader';
 
 type RecipeCardProps = React.ComponentProps<typeof RecipeCard>;
 type RecipeActionsProps = React.ComponentProps<typeof RecipeActions>;
@@ -15,9 +14,8 @@ type RecipeViewProps = {
 function RecipeView({ recipeCardProps, recipeActionsProps }: RecipeViewProps) {
   return (
     <Center bg={'gray.100'}>
-      <Center px={2} h="100vh" w="100vw" maxW={760} bg={'gray.100'}>
+      <Center px={2} h="94vh" w="100vw" maxW={760} bg={'gray.100'}>
         <Flex flexDir="column">
-          <RecipeHeader />
           <RecipeCard {...recipeCardProps} />
           <RecipeActions {...recipeActionsProps} />
           <RecipeFooter />

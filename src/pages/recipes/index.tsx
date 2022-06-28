@@ -2,19 +2,21 @@ import { Center, Flex, Heading, Link, Grid, GridItem } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import * as fs from 'fs';
 import * as path from 'path';
+import { GetServerSideProps } from 'next';
+import { randomDisplayPath } from '../../utils/recipeUtils';
 
-// SSG
-export async function getStaticProps() {
+export const getServerSideProps: GetServerSideProps = async () => {
   const jsonPath = path.join(process.cwd(), 'public', 'category.json');
   const jsonText = fs.readFileSync(jsonPath, 'utf-8');
   const data = JSON.parse(jsonText);
 
   return {
-    props: {
-      categoryList: data,
+    redirect: {
+      permanent: false,
+      destination: randomDisplayPath(data),
     },
   };
-}
+};
 
 const CategoryList = ({ categoryList }: { categoryList: CategoryList }) => {
   return (
