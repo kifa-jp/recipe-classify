@@ -13,7 +13,7 @@ type RecipeCardProps = {
 
 function RecipeCard({ title, description, cost, indication, imageUrl, recipeUrl }: RecipeCardProps) {
   return (
-    <Box p={4} mb={8} boxShadow={'lg'} textAlign="center" rounded={6} bg={'white'} h={450} w={'95vw'} maxW={600}>
+    <Box p={4} mb={8} boxShadow={'dark-lg'} textAlign="center" rounded={6} bg={'white'} h={450} w="100%">
       <Box mb={3}>
         <Heading as="h2" fontSize={'md'} lineHeight="4" noOfLines={2}>
           {title}

@@ -11,7 +11,9 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
         <title>何食べたい？</title>
       </Head>
       <NavBar />
-      <Container pt={10}>{children}</Container>
+      <Container pt={12} px={0}>
+        {children}
+      </Container>
     </Box>
   );
 };

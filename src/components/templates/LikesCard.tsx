@@ -10,16 +10,7 @@ type LikesCardProps = {
 
 const LikesCard = ({ key, recipeSummary, clickDeleteButton }: LikesCardProps) => {
   return (
-    <Box
-      key={key}
-      position={'relative'}
-      border={'1px solid'}
-      borderColor={'gray.300'}
-      borderRadius={10}
-      overflow={'hidden'}
-      mb={1}
-      boxShadow={'md'}
-    >
+    <Box key={key} position={'relative'} borderBottom={'1px solid'} py={1} borderColor={'gray.300'} overflow={'hidden'}>
       <Box w={'100%'}>
         <Link href={recipeSummary.url} target="_blank">
           <Flex _hover={{ bg: 'orange.50' }} _active={{ bg: 'orange.50' }}>
@@ -31,7 +22,7 @@ const LikesCard = ({ key, recipeSummary, clickDeleteButton }: LikesCardProps) =>
               backgroundSize={'cover'}
               backgroundPosition={'center'}
             />
-            <Box p={2} mr={4}>
+            <Box p={2} mr={5}>
               <Text fontSize={'md'} fontWeight={'bold'} lineHeight={'5'} color={'gray.800'} noOfLines={2}>
                 {recipeSummary.title}
               </Text>
@@ -39,7 +30,7 @@ const LikesCard = ({ key, recipeSummary, clickDeleteButton }: LikesCardProps) =>
           </Flex>
         </Link>
       </Box>
-      <Box position={'absolute'} top="0" right="0">
+      <Box position={'absolute'} top="1" right="1">
         <Button size={'xs'} p={0} colorScheme={'gray'} verticalAlign={'top'} onClick={clickDeleteButton}>
           <SmallCloseIcon />
         </Button>

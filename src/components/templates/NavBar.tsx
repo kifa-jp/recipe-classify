@@ -19,7 +19,7 @@ import Logo from '../parts/Logo';
 const NavBar = () => {
   return (
     <Box position={'fixed'} as={'nav'} w={'100%'} bg={'white'} zIndex={1}>
-      <Container display={'flex'} px={2} justifyContent={'space-between'} alignItems={'center'}>
+      <Container display={'flex'} px={2} h={12} justifyContent={'space-between'} alignItems={'center'}>
         <Flex align={'center'} mr={5}>
           <Heading as="h1" letterSpacing={'tighter'}>
             <Logo />

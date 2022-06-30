@@ -11,7 +11,7 @@ function LikeButton({ href }: { href: string }) {
           <AiFillHeart />
         </Box>
         <Box as="span" ml={1} p={0.8}>
-          Like
+          食べたい
         </Box>
       </Button>
     </NextLink>

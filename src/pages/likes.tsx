@@ -1,6 +1,5 @@
-import { Box, Container, Heading, Link } from '@chakra-ui/react';
+import { Box, Container, Heading } from '@chakra-ui/react';
 import dynamic from 'next/dynamic';
-import NextLink from 'next/link';
 import React, { useState } from 'react';
 import LikesCard from '../components/templates/LikesCard';
 import { deleteLike, getLikeList } from '../utils/likeUtils';
@@ -14,7 +13,7 @@ const Likes = () => {
   };
 
   return (
-    <Container maxW={600} px={2}>
+    <Container px={0} pb={10}>
       <Box textAlign={'center'} h={'16'}>
         <Heading as={'h2'} color={'gray.800'} fontSize={24}>
           マイリスト
@@ -23,11 +22,6 @@ const Likes = () => {
       {likeList.map((recipeSummary, key) => (
         <LikesCard key={key} recipeSummary={recipeSummary} clickDeleteButton={() => deleteItem(key)} />
       ))}
-      <Box textAlign={'center'}>
-        <NextLink href="./recipes" passHref>
-          <Link>レシピを探す</Link>
-        </NextLink>
-      </Box>
     </Container>
   );
 };
