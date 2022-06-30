@@ -10,10 +10,10 @@ type LikesCardProps = {
 
 const LikesCard = ({ key, recipeSummary, clickDeleteButton }: LikesCardProps) => {
   return (
-    <Box key={key} position={'relative'} borderBottom={'1px solid'} py={1} borderColor={'gray.300'} overflow={'hidden'}>
+    <Box key={key} position={'relative'} borderBottom={'1px solid'} borderColor={'gray.300'} overflow={'hidden'}>
       <Box w={'100%'}>
         <Link href={recipeSummary.url} target="_blank">
-          <Flex _hover={{ bg: 'orange.50' }} _active={{ bg: 'orange.50' }}>
+          <Flex py={1} _hover={{ bg: 'orange.50' }} _active={{ bg: 'orange.50' }}>
             <Box
               w={[65, 100]}
               h={[65, 100]}
