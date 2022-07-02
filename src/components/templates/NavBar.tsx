@@ -46,7 +46,7 @@ const NavBar = () => {
             <MenuList>
               <MenuItem>
                 <NextLink href="/likes" passHref>
-                  <Link>マイリスト</Link>
+                  <Link>食べたいリスト</Link>
                 </NextLink>
               </MenuItem>
               <MenuItem>

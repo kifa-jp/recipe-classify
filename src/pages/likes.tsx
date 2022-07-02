@@ -14,9 +14,9 @@ const Likes = () => {
 
   return (
     <Container px={0} pb={10}>
-      <Box textAlign={'center'} h={'16'}>
-        <Heading as={'h2'} color={'gray.800'} fontSize={24}>
-          マイリスト
+      <Box textAlign={'center'} py={4}>
+        <Heading as={'h2'} color={'gray.800'} fontSize={20}>
+          食べたいリスト
         </Heading>
       </Box>
       {likeList.map((recipeSummary, key) => (
