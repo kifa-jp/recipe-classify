@@ -1,4 +1,4 @@
-import { CloseIcon, EditIcon, StarIcon } from '@chakra-ui/icons';
+import { CloseIcon, EditIcon } from '@chakra-ui/icons';
 import { Box, Button, Flex, Link, Text } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
