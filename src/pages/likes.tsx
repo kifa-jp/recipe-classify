@@ -2,7 +2,7 @@ import { Box, Container, Heading } from '@chakra-ui/react';
 import dynamic from 'next/dynamic';
 import React, { useState } from 'react';
 import LikesCard from '../components/templates/LikesCard';
-import { deleteLike, getLikeList } from '../utils/likeUtils';
+import { deleteLike, getLikeList, updateLike } from '../utils/likeUtils';
 
 const Likes = () => {
   const [likeList, setLikeList] = useState(getLikeList());
@@ -10,6 +10,17 @@ const Likes = () => {
   const deleteItem = (index: number) => {
     deleteLike(likeList[index].recipeId);
     setLikeList(getLikeList());
+  };
+
+  const updateStar = (index: number, star: boolean) => {
+    const newLike: RecipeSummary = {
+      recipeId: likeList[index].recipeId,
+      url: likeList[index].url,
+      title: likeList[index].title,
+      image: likeList[index].image,
+      star: star,
+    };
+    updateLike(likeList[index].recipeId, newLike);
   };
 
   return (
@@ -20,7 +31,12 @@ const Likes = () => {
         </Heading>
       </Box>
       {likeList.map((recipeSummary, key) => (
-        <LikesCard key={key} recipeSummary={recipeSummary} clickDeleteButton={() => deleteItem(key)} />
+        <LikesCard
+          key={key}
+          recipeSummary={recipeSummary}
+          clickDeleteButton={() => deleteItem(key)}
+          updateStar={(star) => updateStar(key, star)}
+        />
       ))}
     </Container>
   );

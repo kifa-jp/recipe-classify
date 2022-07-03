@@ -8,12 +8,15 @@ type LikesCardProps = {
   key: number;
   recipeSummary: RecipeSummary;
   clickDeleteButton: () => void;
+  updateStar: (star: boolean) => void;
 };
 
-const LikesCard = ({ key, recipeSummary, clickDeleteButton }: LikesCardProps) => {
-  const [star, setStar] = useState(false);
+const LikesCard = ({ key, recipeSummary, clickDeleteButton, updateStar }: LikesCardProps) => {
+  const [star, setStar] = useState(recipeSummary.star);
   const clickStar = () => {
-    setStar(!star);
+    const newStar = !star;
+    setStar(newStar);
+    updateStar(newStar);
   };
 
   return (
@@ -29,7 +32,7 @@ const LikesCard = ({ key, recipeSummary, clickDeleteButton }: LikesCardProps) =>
               backgroundSize={'cover'}
               backgroundPosition={'center'}
             />
-            <Box p={2} mr={5}>
+            <Box px={2} py={1} mr={5}>
               <Text fontSize={['md', 'lg']} fontWeight={'bold'} lineHeight={'4'} color={'gray.800'} noOfLines={2}>
                 {recipeSummary.title}
               </Text>

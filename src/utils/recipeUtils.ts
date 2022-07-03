@@ -86,6 +86,7 @@ export const summarizeRecipe = (recipe: Recipe): RecipeSummary => {
     url: recipe.recipeUrl,
     title: recipe.recipeTitle,
     image: recipe.mediumImageUrl,
+    star: false,
   };
   return recipeSummary;
 };

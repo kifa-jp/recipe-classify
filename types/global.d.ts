@@ -44,4 +44,5 @@ type RecipeSummary = {
   url: string;
   title: string;
   image: string;
+  star: boolean;
 };
