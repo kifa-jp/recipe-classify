@@ -39,6 +39,11 @@ export const getLikeList = (): LikeList => {
   return getLikeListFromLocalStorage();
 };
 
+export const getRecipeSummary = (recipeId: number): RecipeSummary | undefined => {
+  const likeList = getLikeList();
+  return likeList.find((recipeSummary) => recipeSummary.recipeId === recipeId);
+};
+
 // static
 
 // LikeListをローカルストレージに保存
