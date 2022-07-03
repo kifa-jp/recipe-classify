@@ -74,6 +74,7 @@ const fallbackProps: RecipeViewProps = {
       url: '',
       title: '',
       image: '',
+      star: false,
     },
   },
 };

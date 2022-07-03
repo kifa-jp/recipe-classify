@@ -25,6 +25,16 @@ export const deleteLike = (recipeId: number) => {
   }
 };
 
+// LikeListから指定されたIDのレシピ情報を更新
+export const updateLike = (recipeId: number, recipeSummary: RecipeSummary) => {
+  const likeList = getLikeListFromLocalStorage();
+  const index = likeList.findIndex((recipeSummary) => recipeSummary.recipeId === recipeId);
+  if (index !== -1) {
+    likeList.splice(index, 1, recipeSummary);
+    setLikeListToLocalStorage(likeList);
+  }
+};
+
 export const getLikeList = (): LikeList => {
   return getLikeListFromLocalStorage();
 };
