@@ -28,7 +28,7 @@ function RecipeCard({ title, description, cost, indication, imageUrl, recipeUrl 
         </Text>
       </Flex>
       <Box mb={1} position={'relative'} h={300}>
-        {imageUrl && <Image src={imageUrl} alt={title} layout="fill" objectFit="contain" />}
+        {imageUrl && <Image src={imageUrl} alt={title} layout="fill" objectFit="contain" priority={true} />}
       </Box>
       <Box fontSize={'sm'} mb={1}>
         <Text lineHeight="4" noOfLines={2} mb={1}>

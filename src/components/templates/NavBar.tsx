@@ -18,7 +18,7 @@ import Logo from '../parts/Logo';
 
 const NavBar = () => {
   return (
-    <Box position={'fixed'} as={'nav'} w={'100%'} bg={'white'} zIndex={1}>
+    <Box position={'fixed'} as={'nav'} w={'100%'} bg={'white'} zIndex={1} borderBottom={'1px'} borderColor={'gray.100'}>
       <Container display={'flex'} px={2} h={12} justifyContent={'space-between'} alignItems={'center'}>
         <Flex align={'center'} mr={5}>
           <Heading as="h1" letterSpacing={'tighter'}>
@@ -34,7 +34,7 @@ const NavBar = () => {
           mt={[4, 0]}
         >
           <NextLink href="/likes" passHref>
-            <Link>マイリスト</Link>
+            <Link>食べたいリスト</Link>
           </NextLink>
           <NextLink href="/recipes" passHref>
             <Link>レシピを探す</Link>
