@@ -59,7 +59,7 @@ export async function getStaticPaths() {
 
 const fallbackProps: RecipeViewProps = {
   recipeCardProps: {
-    title: 'Loading...',
+    title: '',
     description: '',
     cost: '',
     indication: '',
@@ -86,13 +86,18 @@ const Recipe = ({ categoryList, recipeList }: { categoryList: CategoryList; reci
 
   // fallback用に空のテンプレートを表示
   if (isFallback) {
-    console.log('isFallback = true');
+    console.log(`isFallback = ${isFallback}`);
     return <RecipeView {...fallbackProps} />;
   }
 
   // string型以外は許可しない
   if (!id || Array.isArray(id)) id = '';
   if (!rank || Array.isArray(rank)) rank = '';
+
+  if (!categoryList || !recipeList) {
+    console.log(`categoryList = ${categoryList}`);
+    console.log(`recipeList = ${recipeList}`);
+  }
 
   const nextPath = randomDisplayPath(categoryList);
   const recipeViewProps: RecipeViewProps = {
