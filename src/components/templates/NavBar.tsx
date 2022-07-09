@@ -4,7 +4,6 @@ import {
   Flex,
   Heading,
   IconButton,
-  Link,
   Menu,
   MenuButton,
   MenuItem,
@@ -34,26 +33,26 @@ const NavBar = () => {
           mt={[4, 0]}
         >
           <NextLink href="/likes" passHref>
-            <Link>食べたいリスト</Link>
+            <Box rounded={10} p={2} _hover={{ bg: 'gray.50' }} as={'a'}>
+              食べたいリスト
+            </Box>
           </NextLink>
           <NextLink href="/recipes" passHref>
-            <Link>レシピを探す</Link>
+            <Box rounded={10} p={2} _hover={{ bg: 'gray.50' }} as={'a'}>
+              レシピを探す
+            </Box>
           </NextLink>
         </Stack>
         <Box ml={2} display={['inline-block', 'none']}>
           <Menu>
             <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="Options" h={10} />
             <MenuList>
-              <MenuItem>
-                <NextLink href="/likes" passHref>
-                  <Link>食べたいリスト</Link>
-                </NextLink>
-              </MenuItem>
-              <MenuItem>
-                <NextLink href="/recipes" passHref>
-                  <Link>レシピを探す</Link>
-                </NextLink>
-              </MenuItem>
+              <NextLink href="/likes" passHref>
+                <MenuItem as={'a'}>食べたいリスト</MenuItem>
+              </NextLink>
+              <NextLink href="/recipes" passHref>
+                <MenuItem as={'a'}>レシピを探す</MenuItem>
+              </NextLink>
             </MenuList>
           </Menu>
         </Box>
