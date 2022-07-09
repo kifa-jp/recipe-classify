@@ -18,6 +18,7 @@ export const fetchWithRetry: any = async (url: string, retries: number, retryDel
       console.log('fetch response error [retries = %d]', retries);
       if (retries === 1) {
         console.log('retry out');
+        console.log(res);
         return res;
       }
       await new Promise((resolve) => setTimeout(resolve, retryDelay));

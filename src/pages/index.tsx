@@ -1,12 +1,14 @@
-import {
-  Button,
-  Flex,
-  Heading,
-  Input,
-  useColorMode,
-  useColorModeValue,
-  Center,
-} from '@chakra-ui/react';
+import { Button, Flex, Heading, Input, useColorMode, useColorModeValue, Center } from '@chakra-ui/react';
+import { GetServerSideProps } from 'next';
+
+export const getServerSideProps: GetServerSideProps = async () => {
+  return {
+    redirect: {
+      permanent: false,
+      destination: '/likes',
+    },
+  };
+};
 
 const Index = () => {
   const { toggleColorMode } = useColorMode();
@@ -17,12 +19,7 @@ const Index = () => {
         <Heading mb={6} as="h3">
           Log in
         </Heading>
-        <Input
-          placeholder="example@example.com"
-          variant="filled"
-          mb={3}
-          type="email"
-        />
+        <Input placeholder="example@example.com" variant="filled" mb={3} type="email" />
         <Input placeholder="********" variant="filled" mb={6} type="password" />
         <Button mb={6} colorScheme="teal">
           Log in

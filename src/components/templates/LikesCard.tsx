@@ -20,10 +20,16 @@ const LikesCard = ({ key, recipeSummary, clickDeleteButton, updateStar }: LikesC
   };
 
   return (
-    <Box key={key} position={'relative'} borderBottom={'1px solid'} borderColor={'gray.300'} overflow={'hidden'}>
+    <Box key={key} position={'relative'} borderBottom={'1px solid'} borderColor={'gray.200'} overflow={'hidden'}>
       <Box w={'100%'}>
-        <Link href={recipeSummary.url} target="_blank">
-          <Flex py={1} _hover={{ bg: 'orange.50' }} _active={{ bg: 'orange.50' }}>
+        <Link href={recipeSummary.url} target="_blank" _hover={{ textDecor: 'none' }}>
+          <Flex
+            py={1}
+            transitionDuration="0.2s"
+            color={'gray.800'}
+            _hover={{ bg: 'gray.50', color: 'gray.600', textDecor: 'none' }}
+            _active={{ bg: 'gray.100' }}
+          >
             <Box
               w={[65, 100]}
               h={[65, 100]}
@@ -33,7 +39,7 @@ const LikesCard = ({ key, recipeSummary, clickDeleteButton, updateStar }: LikesC
               backgroundPosition={'center'}
             />
             <Box px={2} py={1} mr={5}>
-              <Text fontSize={['md', 'lg']} fontWeight={'bold'} lineHeight={'4'} color={'gray.800'} noOfLines={2}>
+              <Text fontSize={['md', 'lg']} fontWeight={'bold'} lineHeight={'4'} noOfLines={2}>
                 {recipeSummary.title}
               </Text>
             </Box>

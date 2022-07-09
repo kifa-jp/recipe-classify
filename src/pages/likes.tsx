@@ -2,6 +2,7 @@ import { Box, Button, Container, Flex, Heading, Spacer } from '@chakra-ui/react'
 import dynamic from 'next/dynamic';
 import React, { useState } from 'react';
 import LikesCard from '../components/templates/LikesCard';
+import LikesEmpty from '../components/templates/LikesEmpty';
 import { deleteLike, getLikeList, getRecipeSummary, updateLike } from '../utils/likeUtils';
 
 type Filter = 'all' | 'star';
@@ -36,6 +37,10 @@ const Likes = () => {
         return recipeSummary;
     }
   });
+
+  if (likeList.length === 0) {
+    return <LikesEmpty />;
+  }
 
   return (
     <Container px={0} pb={10}>

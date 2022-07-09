@@ -4,7 +4,6 @@ import {
   Flex,
   Heading,
   IconButton,
-  Link,
   Menu,
   MenuButton,
   MenuItem,
@@ -18,7 +17,7 @@ import Logo from '../parts/Logo';
 
 const NavBar = () => {
   return (
-    <Box position={'fixed'} as={'nav'} w={'100%'} bg={'white'} zIndex={1}>
+    <Box position={'fixed'} as={'nav'} w={'100%'} bg={'white'} zIndex={1} borderBottom={'1px'} borderColor={'gray.100'}>
       <Container display={'flex'} px={2} h={12} justifyContent={'space-between'} alignItems={'center'}>
         <Flex align={'center'} mr={5}>
           <Heading as="h1" letterSpacing={'tighter'}>
@@ -34,26 +33,26 @@ const NavBar = () => {
           mt={[4, 0]}
         >
           <NextLink href="/likes" passHref>
-            <Link>マイリスト</Link>
+            <Box rounded={10} p={2} _hover={{ bg: 'gray.50' }} as={'a'}>
+              食べたいリスト
+            </Box>
           </NextLink>
           <NextLink href="/recipes" passHref>
-            <Link>レシピを探す</Link>
+            <Box rounded={10} p={2} _hover={{ bg: 'gray.50' }} as={'a'}>
+              レシピを探す
+            </Box>
           </NextLink>
         </Stack>
         <Box ml={2} display={['inline-block', 'none']}>
           <Menu>
             <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="Options" h={10} />
             <MenuList>
-              <MenuItem>
-                <NextLink href="/likes" passHref>
-                  <Link>食べたいリスト</Link>
-                </NextLink>
-              </MenuItem>
-              <MenuItem>
-                <NextLink href="/recipes" passHref>
-                  <Link>レシピを探す</Link>
-                </NextLink>
-              </MenuItem>
+              <NextLink href="/likes" passHref>
+                <MenuItem as={'a'}>食べたいリスト</MenuItem>
+              </NextLink>
+              <NextLink href="/recipes" passHref>
+                <MenuItem as={'a'}>レシピを探す</MenuItem>
+              </NextLink>
             </MenuList>
           </Menu>
         </Box>
