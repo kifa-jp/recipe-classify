@@ -39,7 +39,7 @@ const LikesCard = ({ key, recipeSummary, clickDeleteButton, updateStar }: LikesC
               backgroundPosition={'center'}
             />
             <Box px={2} py={1} mr={5}>
-              <Text fontSize={['md', 'lg']} fontWeight={'bold'} lineHeight={'4'} noOfLines={2}>
+              <Text fontSize={['md', 'lg']} fontWeight={'bold'} lineHeight={['4', '6']} noOfLines={2}>
                 {recipeSummary.title}
               </Text>
             </Box>
