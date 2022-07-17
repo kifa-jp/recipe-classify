@@ -7,7 +7,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <Box as="main">
       <Head>
-        <meta name="theme-color" content="#f69435" />
+        <meta name="theme-color" content="#fff" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/icon-192x192.png" />
         <link rel="icon" href="/favicon.ico" />
